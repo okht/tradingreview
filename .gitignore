@@ -1,0 +1,13 @@
+node_modules/
+dist/
+dist-local/
+.vinext/
+.wrangler/
+.next/
+.huikan-data/
+.env*
+!.env.example
+*.log
+*.tsbuildinfo
+**/oauth-credentials.dpapi.json*
+**/local-instance.lock

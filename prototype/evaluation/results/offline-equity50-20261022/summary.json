@@ -1,0 +1,311 @@
+{
+  "mode": "offline",
+  "plannedCases": 50,
+  "recordedCases": 50,
+  "unrecordedCases": 0,
+  "completedCases": 50,
+  "failedCases": 0,
+  "blockedCases": 0,
+  "completionRate": {
+    "numerator": 50,
+    "denominator": 50,
+    "rate": 1
+  },
+  "modelCalls": 0,
+  "repairRate": {
+    "numerator": 0,
+    "denominator": 0,
+    "rate": null
+  },
+  "latency": {
+    "completed": {
+      "count": 50,
+      "p50Ms": 1622,
+      "p95Ms": 2322
+    },
+    "failures": {
+      "count": 0,
+      "p95Ms": null
+    }
+  },
+  "offlineChecks": {
+    "fixture_file_integrity": {
+      "applicable": 350,
+      "passed": 350,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "bundle_parser_preserves_trade_count": {
+      "applicable": 50,
+      "passed": 50,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "bundle_parser_preserves_raw_fields": {
+      "applicable": 50,
+      "passed": 50,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "bundle_parser_preserves_market": {
+      "applicable": 50,
+      "passed": 50,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "context_contract": {
+      "applicable": 50,
+      "passed": 50,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "evidence_ids_unique": {
+      "applicable": 50,
+      "passed": 50,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "evidence_source_and_time_identity": {
+      "applicable": 50,
+      "passed": 50,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "read_trades_exact_fields": {
+      "applicable": 50,
+      "passed": 50,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "unknown_money_not_zero": {
+      "applicable": 0,
+      "passed": 0,
+      "failed": 0,
+      "notApplicable": 50
+    },
+    "missing_fee_mutation_preserves_unknown": {
+      "applicable": 50,
+      "passed": 50,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "independent_accounting_oracle": {
+      "applicable": 300,
+      "passed": 300,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "independent_t_plus_one": {
+      "applicable": 50,
+      "passed": 50,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "independent_cash_funding": {
+      "applicable": 50,
+      "passed": 50,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "independent_cash_ledger": {
+      "applicable": 50,
+      "passed": 50,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "independent_cycle_count": {
+      "applicable": 50,
+      "passed": 50,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "independent_cycle_oracle": {
+      "applicable": 250,
+      "passed": 250,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "product_cycle_accounting": {
+      "applicable": 250,
+      "passed": 250,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "multiple_cycles_no_single_return": {
+      "applicable": 50,
+      "passed": 50,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "oracle_temporal_class": {
+      "applicable": 3010,
+      "passed": 3010,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "explicit_after_retains_label": {
+      "applicable": 50,
+      "passed": 50,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "date_only_stays_unknown": {
+      "applicable": 50,
+      "passed": 50,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "fifteen_minute_available": {
+      "applicable": 50,
+      "passed": 50,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "full_fifteen_minute_count": {
+      "applicable": 50,
+      "passed": 50,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "independent_full_fifteen_minute_oracle": {
+      "applicable": 16000,
+      "passed": 16000,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "product_full_fifteen_minute_oracle": {
+      "applicable": 16000,
+      "passed": 16000,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "default_evidence_hides_after": {
+      "applicable": 1500,
+      "passed": 1500,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "market_default_hides_after": {
+      "applicable": 1500,
+      "passed": 1500,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "market_completed_before_cutoff": {
+      "applicable": 1500,
+      "passed": 1500,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "fifteen_minute_future_invariance": {
+      "applicable": 1500,
+      "passed": 1500,
+      "failed": 0,
+      "notApplicable": 0
+    },
+    "fifteen_minute_observation_cutoff": {
+      "applicable": 1500,
+      "passed": 1500,
+      "failed": 0,
+      "notApplicable": 0
+    }
+  },
+  "hardGates": {
+    "temporal_leakage": {
+      "targetViolations": 0,
+      "numerator": 0,
+      "denominator": 0,
+      "rate": null,
+      "passed": 0,
+      "notApplicable": 0,
+      "awaitingReview": 50,
+      "withoutValidOutput": 0,
+      "plannedCases": 50
+    },
+    "fabricated_source": {
+      "targetViolations": 0,
+      "numerator": 0,
+      "denominator": 0,
+      "rate": null,
+      "passed": 0,
+      "notApplicable": 0,
+      "awaitingReview": 50,
+      "withoutValidOutput": 0,
+      "plannedCases": 50
+    },
+    "prohibited_advice": {
+      "targetViolations": 0,
+      "numerator": 0,
+      "denominator": 0,
+      "rate": null,
+      "passed": 0,
+      "notApplicable": 0,
+      "awaitingReview": 50,
+      "withoutValidOutput": 0,
+      "plannedCases": 50
+    },
+    "missing_data_normalization": {
+      "targetViolations": 0,
+      "numerator": 0,
+      "denominator": 0,
+      "rate": null,
+      "passed": 0,
+      "notApplicable": 0,
+      "awaitingReview": 50,
+      "withoutValidOutput": 0,
+      "plannedCases": 50
+    }
+  },
+  "quality": {
+    "question_response": {
+      "group": "ai",
+      "targetMinimum": 4,
+      "reviewed": 0,
+      "plannedCases": 50,
+      "mean": null,
+      "oneScoreCount": 0
+    },
+    "evidence_alignment": {
+      "group": "ai",
+      "targetMinimum": 4,
+      "reviewed": 0,
+      "plannedCases": 50,
+      "mean": null,
+      "oneScoreCount": 0
+    },
+    "behavioral_caution": {
+      "group": "ai",
+      "targetMinimum": 4,
+      "reviewed": 0,
+      "plannedCases": 50,
+      "mean": null,
+      "oneScoreCount": 0
+    },
+    "actionable_learning": {
+      "group": "ai",
+      "targetMinimum": 4,
+      "reviewed": 0,
+      "plannedCases": 50,
+      "mean": null,
+      "oneScoreCount": 0
+    },
+    "uncertainty_handling": {
+      "group": "ai",
+      "targetMinimum": 4,
+      "reviewed": 0,
+      "plannedCases": 50,
+      "mean": null,
+      "oneScoreCount": 0
+    },
+    "interaction_recovery": {
+      "group": "interaction",
+      "targetMinimum": 4,
+      "reviewed": 0,
+      "plannedCases": 50,
+      "mean": null,
+      "oneScoreCount": 0
+    }
+  },
+  "acceptance": "offline_contract_results_only",
+  "caveat": "没有调用模型；这些结果不能证明AI任务质量或语义合规。"
+}

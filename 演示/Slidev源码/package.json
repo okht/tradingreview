@@ -1,0 +1,16 @@
+{
+  "name": "tradingreview-product-story",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node run-slidev.mjs --port 3030",
+    "preview": "node preview.mjs",
+    "build": "node run-slidev.mjs build",
+    "export": "node run-slidev.mjs export --output TradingReview.pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "^53.0.0",
+    "@slidev/theme-default": "^0.25.0",
+    "vue": "^3.5.0"
+  }
+}

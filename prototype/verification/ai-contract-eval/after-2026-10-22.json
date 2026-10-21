@@ -1,0 +1,205 @@
+{
+  "kind": "deterministic-contract-challenge",
+  "modelQualityEvaluation": false,
+  "total": 28,
+  "passed": 28,
+  "failed": 0,
+  "results": [
+    {
+      "id": "main-text-future-without-own-refs",
+      "expected": "reject",
+      "actual": "reject",
+      "passed": true,
+      "error": "主回复中的结论必须提供 textEvidenceIds；无引用时只能提出澄清问题或中性的核对引导。"
+    },
+    {
+      "id": "main-text-fake-profit",
+      "expected": "reject",
+      "actual": "reject",
+      "passed": true,
+      "error": "主回复中的结论必须提供 textEvidenceIds；无引用时只能提出澄清问题或中性的核对引导。"
+    },
+    {
+      "id": "main-text-future-with-own-refs",
+      "expected": "reject",
+      "actual": "reject",
+      "passed": true,
+      "error": "决策后证据不能作为事前决策的归因依据。"
+    },
+    {
+      "id": "main-text-future-with-limitation",
+      "expected": "accept",
+      "actual": "accept",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "main-text-own-refs-not-indexed",
+      "expected": "reject",
+      "actual": "reject",
+      "passed": true,
+      "error": "evidenceIds 未包含结论实际引用的全部证据。"
+    },
+    {
+      "id": "claim-only-without-any-refs",
+      "expected": "reject",
+      "actual": "reject",
+      "passed": true,
+      "error": "主回复中的结论必须提供 textEvidenceIds；无引用时只能提出澄清问题或中性的核对引导。"
+    },
+    {
+      "id": "correct-trade-fields",
+      "expected": "accept",
+      "actual": "accept",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "wrong-cited-quantity",
+      "expected": "reject",
+      "actual": "reject",
+      "passed": true,
+      "error": "成交数量与所引用的原始字段或确定性核算不一致；数据不完整时不能生成数值结论。"
+    },
+    {
+      "id": "wrong-cited-fee",
+      "expected": "reject",
+      "actual": "reject",
+      "passed": true,
+      "error": "费用与所引用的原始字段或确定性核算不一致；数据不完整时不能生成数值结论。"
+    },
+    {
+      "id": "wrong-cited-price",
+      "expected": "reject",
+      "actual": "reject",
+      "passed": true,
+      "error": "成交价格与所引用的原始字段或确定性核算不一致；数据不完整时不能生成数值结论。"
+    },
+    {
+      "id": "unknown-price-cannot-be-zero",
+      "expected": "reject",
+      "actual": "reject",
+      "passed": true,
+      "error": "成交价格与所引用的原始字段或确定性核算不一致；数据不完整时不能生成数值结论。"
+    },
+    {
+      "id": "incomplete-cycle-profit",
+      "expected": "reject",
+      "actual": "reject",
+      "passed": true,
+      "error": "净盈亏与所引用的原始字段或确定性核算不一致；数据不完整时不能生成数值结论。"
+    },
+    {
+      "id": "complete-cycle-correct-profit",
+      "expected": "accept",
+      "actual": "accept",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "complete-cycle-wrong-profit",
+      "expected": "reject",
+      "actual": "reject",
+      "passed": true,
+      "error": "净盈亏与所引用的原始字段或确定性核算不一致；数据不完整时不能生成数值结论。"
+    },
+    {
+      "id": "trade-only-psychology",
+      "expected": "reject",
+      "actual": "reject",
+      "passed": true,
+      "error": "行为偏差只能作为有用户背景依据的待核实解释，不能从成交或行情直接断言心理动机。"
+    },
+    {
+      "id": "uncertain-background-supported-bias",
+      "expected": "accept",
+      "actual": "accept",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "certain-background-bias",
+      "expected": "reject",
+      "actual": "reject",
+      "passed": true,
+      "error": "基于事后回忆的解释必须明确不确定性。"
+    },
+    {
+      "id": "trade-only-causal-attribution",
+      "expected": "reject",
+      "actual": "reject",
+      "passed": true,
+      "error": "公开信息和成交记录不能直接证明用户当时的认知或买卖动机。"
+    },
+    {
+      "id": "learning-without-own-refs",
+      "expected": "reject",
+      "actual": "reject",
+      "passed": true,
+      "error": "learning.evidenceIds数量或格式无效。"
+    },
+    {
+      "id": "learning-with-own-refs",
+      "expected": "accept",
+      "actual": "accept",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "learning-invented-refs",
+      "expected": "reject",
+      "actual": "reject",
+      "passed": true,
+      "error": "learning.evidenceIds必须引用当前已存在的证据，且不能重复。"
+    },
+    {
+      "id": "clarification-with-time-and-ordinal",
+      "expected": "accept",
+      "actual": "accept",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "clarification-with-no-material",
+      "expected": "accept",
+      "actual": "accept",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "false-claim-in-limitation-prefix",
+      "expected": "reject",
+      "actual": "reject",
+      "passed": true,
+      "error": "主回复中的结论必须提供 textEvidenceIds；无引用时只能提出澄清问题或中性的核对引导。"
+    },
+    {
+      "id": "trade-only-bias-limitation",
+      "expected": "accept",
+      "actual": "accept",
+      "passed": true,
+      "error": null
+    },
+    {
+      "id": "direct-advice-paraphrase",
+      "expected": "reject",
+      "actual": "reject",
+      "passed": true,
+      "error": "结果包含直接买卖建议、收益承诺或确定性涨跌表述。"
+    },
+    {
+      "id": "direct-advice-existing-control",
+      "expected": "reject",
+      "actual": "reject",
+      "passed": true,
+      "error": "结果包含直接买卖建议、收益承诺或确定性涨跌表述。"
+    },
+    {
+      "id": "main-text-recollection-with-certainty",
+      "expected": "reject",
+      "actual": "reject",
+      "passed": true,
+      "error": "基于事后回忆的解释必须明确不确定性。"
+    }
+  ]
+}

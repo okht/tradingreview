@@ -1,0 +1,196 @@
+{
+  "startedAt": "2026-10-21T22:53:33.012Z",
+  "base": "https://tradingreview.cht.me",
+  "checks": [
+    {
+      "name": "fresh-page-cookie",
+      "passed": true,
+      "status": 200,
+      "cookiePresent": true,
+      "cookieAttributes": [
+        "Path=/",
+        "Max-Age=15552000",
+        "HttpOnly",
+        "Secure",
+        "SameSite=Lax"
+      ],
+      "cacheControl": "private, no-store",
+      "path": "/"
+    },
+    {
+      "name": "fresh-visitors-different-cookie",
+      "passed": true,
+      "status": 404
+    },
+    {
+      "name": "page-reuses-cookie",
+      "passed": true,
+      "status": 200,
+      "path": "/",
+      "cookieNames": [
+        "__cf_bm"
+      ]
+    },
+    {
+      "name": "anonymous-api-status",
+      "passed": true,
+      "status": 200,
+      "runtime": "cloud",
+      "oauth": false
+    },
+    {
+      "name": "missing-session-fails-without-creating-identity",
+      "passed": true,
+      "status": 409,
+      "cookieNames": [
+        "__cf_bm"
+      ]
+    },
+    {
+      "name": "fresh-workspace-empty",
+      "passed": true,
+      "status": 200,
+      "revision": 0,
+      "stateNull": true
+    },
+    {
+      "name": "save-anonymous-full-workspace",
+      "passed": true,
+      "status": 200,
+      "revision": 1
+    },
+    {
+      "name": "full-workspace-persists",
+      "passed": true,
+      "status": 200
+    },
+    {
+      "name": "visitor-isolation",
+      "passed": true,
+      "status": 200,
+      "stateNull": true
+    },
+    {
+      "name": "quick-referrer-separate-workspace",
+      "passed": true,
+      "status": 200,
+      "stateNull": true
+    },
+    {
+      "name": "save-anonymous-quick-workspace",
+      "passed": true,
+      "status": 200
+    },
+    {
+      "name": "full-quick-isolation",
+      "passed": true,
+      "quickStatus": 200,
+      "fullStatus": 200
+    },
+    {
+      "name": "concurrent-api-stable-visitor",
+      "passed": true,
+      "requests": 5,
+      "cookieNames": [
+        "__cf_bm"
+      ]
+    },
+    {
+      "name": "cross-origin-blocked",
+      "passed": true,
+      "status": 403
+    },
+    {
+      "name": "cross-site-fetch-blocked",
+      "passed": true,
+      "status": 403
+    },
+    {
+      "name": "no-model-key-no-generation",
+      "passed": true,
+      "status": 401,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "name": "gateway-strips-forged-oai-identity",
+      "passed": true,
+      "firstStatus": 200,
+      "secondStatus": 200,
+      "firstRemainsOwnWorkspace": true,
+      "secondRemainsOwnWorkspace": true
+    },
+    {
+      "name": "forged-oai-header-cannot-create-auth-session",
+      "passed": true,
+      "status": 409
+    }
+  ],
+  "safety": {
+    "onlyFreshAnonymousVisitors": true,
+    "onlyRandomProbeIdentity": true,
+    "realModelRequests": 0,
+    "existingUserDataRead": false
+  },
+  "finishedAt": "2026-10-21T22:54:12.506Z",
+  "passed": true,
+  "followup": {
+    "timestamp": "2026-10-21T22:54:01.344Z",
+    "rootDocumentStatus": 200,
+    "apiWithoutCookie": {
+      "status": 409,
+      "cookieNames": [
+        "__cf_bm"
+      ]
+    },
+    "parallelApi": [
+      {
+        "status": 200,
+        "cookieNames": [
+          "__cf_bm"
+        ],
+        "visitorCookieSet": false
+      },
+      {
+        "status": 200,
+        "cookieNames": [
+          "__cf_bm"
+        ],
+        "visitorCookieSet": false
+      },
+      {
+        "status": 200,
+        "cookieNames": [
+          "__cf_bm"
+        ],
+        "visitorCookieSet": false
+      },
+      {
+        "status": 200,
+        "cookieNames": [
+          "__cf_bm"
+        ],
+        "visitorCookieSet": false
+      },
+      {
+        "status": 200,
+        "cookieNames": [
+          "__cf_bm"
+        ],
+        "visitorCookieSet": false
+      }
+    ],
+    "note": "Cloudflare __cf_bm cookies are separate from the application visitor session; the visitor token is not reissued by parallel API requests."
+  },
+  "paths": {
+    "full": "/",
+    "quick": "/quick"
+  },
+  "observations": [
+    "/full is intentionally undefined; full mode is served at /.",
+    "Cloudflare __cf_bm cookies may be refreshed independently; the application visitor cookie remains stable."
+  ],
+  "summary": {
+    "passed": 18,
+    "total": 18
+  }
+}

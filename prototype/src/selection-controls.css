@@ -1,0 +1,41 @@
+.sc-trigger { width: 100%; min-height: 44px; display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 10px 12px; border: 1px solid var(--field-border); border-radius: var(--radius-md); background: var(--field-background); text-align: left; font-size: 13px; font-weight: 400; line-height: 22px; box-shadow: none; }
+.sc-trigger:hover:not(:disabled) { border-color: var(--field-border); background: var(--field-hover-background); }
+.sc-trigger[data-state="open"], .sc-trigger:focus-visible { border-color: var(--field-focus-border); background: var(--field-focus-background); outline: none; box-shadow: none; }
+.sc-trigger>svg, .sc-trigger>[data-state]>svg { color: var(--ink-tertiary); }
+.sc-choice { display: flex; align-items: center; gap: 10px; }
+.sc-provider-mark { width: 25px; height: 25px; display: inline-flex; align-items: center; justify-content: center; background: var(--surface-selected); border: 1px solid var(--border); border-radius: 6px; font-weight: 600; font-size: 14px; color: var(--ink); flex-shrink: 0; }
+.sc-current-model { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sc-placeholder { color: var(--ink-tertiary); }
+.sc-popup { z-index: 100; background: var(--surface); border: 1px solid var(--border); border-radius: 11px; box-shadow: var(--shadow-popover); color: var(--ink); overflow: hidden; animation: sc-appear 120ms ease-out; }
+.sc-select-popup { width: var(--radix-select-trigger-width); max-height: var(--radix-select-content-available-height); }
+.sc-select-list { padding: 5px; }
+.sc-option { min-height: 41px; display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 6px; cursor: pointer; outline: none; font-size: 13px; line-height: 22px; position: relative; user-select: none; }
+.sc-option[data-highlighted], .sc-option[aria-selected="true"] { background: var(--surface-hover); color: var(--ink); }
+.sc-option[data-state="checked"] { font-weight: 500; }
+.sc-check { margin-left: auto; color: var(--ink); flex-shrink: 0; display: inline-flex; align-items: center; }
+.sc-scroll { display: flex; justify-content: center; align-items: center; height: 20px; color: var(--ink-tertiary); }
+.sc-model-popup { width: var(--radix-popover-trigger-width); max-width: calc(100vw - 32px); max-height: var(--radix-popover-content-available-height); }
+.sc-model-popup [cmdk-root] { display: flex; flex-direction: column; max-height: var(--radix-popover-content-available-height); }
+.sc-search { display: flex; align-items: center; gap: 9px; padding: 0 13px; border-bottom: 1px solid var(--border); color: var(--ink-tertiary); flex-shrink: 0; }
+.sc-search input { width: 100%; height: 45px; border: 0; padding: 0; outline: none; font-size: 13px; box-shadow: none; background: transparent; }
+.sc-search input::placeholder { color: var(--ink-tertiary); }
+.sc-model-list { max-height: 236px; min-height: 45px; overflow-y: auto; overscroll-behavior: contain; padding: 5px; scrollbar-width: thin; scrollbar-color: var(--surface-active) transparent; }
+.sc-model-label { display: flex; flex-direction: column; min-width: 0; }
+.sc-model-label>span { overflow-wrap: anywhere; }
+.sc-model-label small { color: var(--ink-tertiary); font-size: 11px; line-height: 18px; font-weight: 400; }
+.sc-model-option { min-height: 39px; }
+.sc-footnote { display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--border); padding: 9px 14px; font-size: 11px; color: var(--ink-tertiary); flex-shrink: 0; }
+.sc-footnote button { background: none; border: 0; padding: 0 0 0 10px; font-size: 11px; color: var(--ink-secondary); }
+.sc-custom strong { font-weight: 500; overflow-wrap: anywhere; }
+.sc-empty { padding: 18px 12px; text-align: center; color: var(--ink-tertiary); font-size: 12px; }
+.sc-loading { animation: sc-spin 1s linear infinite; }
+@keyframes sc-spin { to { transform: rotate(360deg); } }
+@keyframes sc-appear { from { opacity: 0; transform: translateY(-3px); } to { opacity: 1; transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) { .sc-popup, .sc-loading { animation: none; } }
+
+.sc-trigger:disabled { background: var(--control-disabled-background); color: var(--text-disabled); border-color: transparent; opacity: 1; }
+.sc-trigger[aria-invalid="true"] { border-color: var(--red-text); }
+
+.sc-trigger:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+
+.sc-search input, .sc-search input:hover, .sc-search input:focus, .sc-search input:focus-visible { background: transparent; border: 0; outline: none; box-shadow: none; }

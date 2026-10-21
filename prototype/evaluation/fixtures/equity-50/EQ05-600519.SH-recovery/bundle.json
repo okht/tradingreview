@@ -1,0 +1,4792 @@
+{
+  "format": "huikan-review-bundle",
+  "version": 1,
+  "description": "贵州茅台（600519.SH）是真实股票标的。价格、成交、用户背景和事件均为构造测试资料，不代表真实历史或投资建议。",
+  "evaluation": {
+    "version": "equity-50-v1",
+    "id": "EQ05",
+    "seed": 20297726,
+    "scenario": "先跌后反弹与理由缺失",
+    "realInstrumentOnly": true,
+    "generatedPricesAndBehavior": true
+  },
+  "trades": [
+    {
+      "id": "EQ05-T01",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-03T09:40",
+      "side": "buy",
+      "quantity": 300,
+      "price": 1536.96,
+      "fee": 119.88,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T02",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-03T14:10",
+      "side": "buy",
+      "quantity": 100,
+      "price": 1535.6,
+      "fee": 39.93,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T03",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-04T10:35",
+      "side": "buy",
+      "quantity": 300,
+      "price": 1524.07,
+      "fee": 118.88,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T04",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-04T13:25",
+      "side": "buy",
+      "quantity": 300,
+      "price": 1517.06,
+      "fee": 118.33,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T05",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-05T10:20",
+      "side": "sell",
+      "quantity": 200,
+      "price": 1498.3,
+      "fee": 227.74,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T06",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-05T13:20",
+      "side": "sell",
+      "quantity": 200,
+      "price": 1487.27,
+      "fee": 226.07,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T07",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-06T10:10",
+      "side": "sell",
+      "quantity": 300,
+      "price": 1465.94,
+      "fee": 334.23,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T08",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-06T14:40",
+      "side": "sell",
+      "quantity": 300,
+      "price": 1452.83,
+      "fee": 331.25,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T09",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-07T09:40",
+      "side": "buy",
+      "quantity": 200,
+      "price": 1450.6,
+      "fee": 75.43,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T10",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-07T14:10",
+      "side": "buy",
+      "quantity": 100,
+      "price": 1446.25,
+      "fee": 37.6,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T11",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-10T10:35",
+      "side": "buy",
+      "quantity": 100,
+      "price": 1451.05,
+      "fee": 37.73,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T12",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-10T13:25",
+      "side": "buy",
+      "quantity": 300,
+      "price": 1443.75,
+      "fee": 112.61,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T13",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-11T10:20",
+      "side": "sell",
+      "quantity": 100,
+      "price": 1438.93,
+      "fee": 109.36,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T14",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-11T13:20",
+      "side": "sell",
+      "quantity": 200,
+      "price": 1427.13,
+      "fee": 216.92,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T15",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-12T10:10",
+      "side": "sell",
+      "quantity": 200,
+      "price": 1412.33,
+      "fee": 214.67,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T16",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-12T14:40",
+      "side": "sell",
+      "quantity": 200,
+      "price": 1388.03,
+      "fee": 210.98,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T17",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-13T09:40",
+      "side": "buy",
+      "quantity": 300,
+      "price": 1387.99,
+      "fee": 108.26,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T18",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-13T14:10",
+      "side": "buy",
+      "quantity": 100,
+      "price": 1402.88,
+      "fee": 36.47,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T19",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-14T10:35",
+      "side": "buy",
+      "quantity": 300,
+      "price": 1415.69,
+      "fee": 110.42,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T20",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-14T13:25",
+      "side": "buy",
+      "quantity": 300,
+      "price": 1431.59,
+      "fee": 111.66,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T21",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-17T10:20",
+      "side": "sell",
+      "quantity": 200,
+      "price": 1451.39,
+      "fee": 220.61,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T22",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-17T13:20",
+      "side": "sell",
+      "quantity": 200,
+      "price": 1463.35,
+      "fee": 222.43,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T23",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-18T10:10",
+      "side": "sell",
+      "quantity": 300,
+      "price": 1477.71,
+      "fee": 336.92,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T24",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-18T14:40",
+      "side": "sell",
+      "quantity": 300,
+      "price": 1490.11,
+      "fee": 339.75,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T25",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-19T09:40",
+      "side": "buy",
+      "quantity": 200,
+      "price": 1487.74,
+      "fee": 77.36,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T26",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-19T14:10",
+      "side": "buy",
+      "quantity": 300,
+      "price": 1497.32,
+      "fee": 116.79,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T27",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-20T10:35",
+      "side": "buy",
+      "quantity": 200,
+      "price": 1503.94,
+      "fee": 78.2,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T28",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-20T13:25",
+      "side": "buy",
+      "quantity": 100,
+      "price": 1513.38,
+      "fee": 39.35,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T29",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-21T10:20",
+      "side": "sell",
+      "quantity": 200,
+      "price": 1534.43,
+      "fee": 233.23,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T30",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-21T13:20",
+      "side": "sell",
+      "quantity": 200,
+      "price": 1553.01,
+      "fee": 236.06,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T31",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-24T10:10",
+      "side": "sell",
+      "quantity": 200,
+      "price": 1572.93,
+      "fee": 239.09,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T32",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-24T14:40",
+      "side": "sell",
+      "quantity": 200,
+      "price": 1592.75,
+      "fee": 242.1,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T33",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-25T09:40",
+      "side": "buy",
+      "quantity": 300,
+      "price": 1596.39,
+      "fee": 124.52,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T34",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-25T14:10",
+      "side": "buy",
+      "quantity": 200,
+      "price": 1605.22,
+      "fee": 83.47,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T35",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-26T10:35",
+      "side": "buy",
+      "quantity": 100,
+      "price": 1613.29,
+      "fee": 41.95,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T36",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-26T13:25",
+      "side": "buy",
+      "quantity": 200,
+      "price": 1613.85,
+      "fee": 83.92,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T37",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-27T10:20",
+      "side": "sell",
+      "quantity": 200,
+      "price": 1632.08,
+      "fee": 248.08,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T38",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-27T13:20",
+      "side": "sell",
+      "quantity": 200,
+      "price": 1638.92,
+      "fee": 249.12,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T39",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-28T10:10",
+      "side": "sell",
+      "quantity": 200,
+      "price": 1666.53,
+      "fee": 253.31,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    },
+    {
+      "id": "EQ05-T40",
+      "symbol": "600519.SH",
+      "name": "贵州茅台",
+      "time": "2025-03-28T14:40",
+      "side": "sell",
+      "quantity": 200,
+      "price": 1695.67,
+      "fee": 257.74,
+      "accountId": "SIM-EQ05",
+      "currency": "CNY",
+      "feeCurrency": "CNY",
+      "assetType": "stock",
+      "quantityUnit": "share",
+      "market": "A股",
+      "margin": false,
+      "leverage": 1,
+      "positionSide": "long"
+    }
+  ],
+  "marketData": {
+    "provider": "synthetic",
+    "source": "用户导入的合成行情",
+    "synthetic": true,
+    "instrumentKind": "real-equity",
+    "reviewInterval": "15m",
+    "status": "ok",
+    "symbol": "600519.SH",
+    "interval": "5m",
+    "adjust": "none",
+    "currency": "CNY",
+    "timeZone": "Asia/Shanghai",
+    "from": "2025-03-03",
+    "to": "2025-03-28",
+    "pricePoints": [
+      {
+        "time": 1740965400,
+        "price": 1535.41
+      },
+      {
+        "time": 1740965700,
+        "price": 1536.25
+      },
+      {
+        "time": 1740966000,
+        "price": 1536.96
+      },
+      {
+        "time": 1740966300,
+        "price": 1537.83
+      },
+      {
+        "time": 1740966600,
+        "price": 1538.63
+      },
+      {
+        "time": 1740966900,
+        "price": 1539.22
+      },
+      {
+        "time": 1740967200,
+        "price": 1538.74
+      },
+      {
+        "time": 1740967500,
+        "price": 1539.2
+      },
+      {
+        "time": 1740967800,
+        "price": 1538.47
+      },
+      {
+        "time": 1740968100,
+        "price": 1538.43
+      },
+      {
+        "time": 1740968400,
+        "price": 1537.97
+      },
+      {
+        "time": 1740968700,
+        "price": 1537.19
+      },
+      {
+        "time": 1740969000,
+        "price": 1536.15
+      },
+      {
+        "time": 1740969300,
+        "price": 1535.57
+      },
+      {
+        "time": 1740969600,
+        "price": 1535.49
+      },
+      {
+        "time": 1740969900,
+        "price": 1535.79
+      },
+      {
+        "time": 1740970200,
+        "price": 1534.26
+      },
+      {
+        "time": 1740970500,
+        "price": 1534.55
+      },
+      {
+        "time": 1740970800,
+        "price": 1534.58
+      },
+      {
+        "time": 1740971100,
+        "price": 1534.32
+      },
+      {
+        "time": 1740971400,
+        "price": 1532.74
+      },
+      {
+        "time": 1740971700,
+        "price": 1533.13
+      },
+      {
+        "time": 1740972000,
+        "price": 1532.32
+      },
+      {
+        "time": 1740972300,
+        "price": 1532.53
+      },
+      {
+        "time": 1740972600,
+        "price": 1532.48
+      },
+      {
+        "time": 1740978000,
+        "price": 1531.52
+      },
+      {
+        "time": 1740978300,
+        "price": 1531.37
+      },
+      {
+        "time": 1740978600,
+        "price": 1531.34
+      },
+      {
+        "time": 1740978900,
+        "price": 1530.71
+      },
+      {
+        "time": 1740979200,
+        "price": 1531.33
+      },
+      {
+        "time": 1740979500,
+        "price": 1531.22
+      },
+      {
+        "time": 1740979800,
+        "price": 1532.63
+      },
+      {
+        "time": 1740980100,
+        "price": 1532.47
+      },
+      {
+        "time": 1740980400,
+        "price": 1532.25
+      },
+      {
+        "time": 1740980700,
+        "price": 1533.59
+      },
+      {
+        "time": 1740981000,
+        "price": 1534.3
+      },
+      {
+        "time": 1740981300,
+        "price": 1534.47
+      },
+      {
+        "time": 1740981600,
+        "price": 1534.92
+      },
+      {
+        "time": 1740981900,
+        "price": 1535.33
+      },
+      {
+        "time": 1740982200,
+        "price": 1535.6
+      },
+      {
+        "time": 1740982500,
+        "price": 1535.35
+      },
+      {
+        "time": 1740982800,
+        "price": 1534.57
+      },
+      {
+        "time": 1740983100,
+        "price": 1534.52
+      },
+      {
+        "time": 1740983400,
+        "price": 1533.43
+      },
+      {
+        "time": 1740983700,
+        "price": 1532.88
+      },
+      {
+        "time": 1740984000,
+        "price": 1532.32
+      },
+      {
+        "time": 1740984300,
+        "price": 1532.18
+      },
+      {
+        "time": 1740984600,
+        "price": 1530.75
+      },
+      {
+        "time": 1740984900,
+        "price": 1530.47
+      },
+      {
+        "time": 1740985200,
+        "price": 1530.01
+      },
+      {
+        "time": 1741051800,
+        "price": 1532.79
+      },
+      {
+        "time": 1741052100,
+        "price": 1532.63
+      },
+      {
+        "time": 1741052400,
+        "price": 1532.51
+      },
+      {
+        "time": 1741052700,
+        "price": 1531.67
+      },
+      {
+        "time": 1741053000,
+        "price": 1530.68
+      },
+      {
+        "time": 1741053300,
+        "price": 1530.31
+      },
+      {
+        "time": 1741053600,
+        "price": 1529.69
+      },
+      {
+        "time": 1741053900,
+        "price": 1529.07
+      },
+      {
+        "time": 1741054200,
+        "price": 1528.71
+      },
+      {
+        "time": 1741054500,
+        "price": 1528.31
+      },
+      {
+        "time": 1741054800,
+        "price": 1528.03
+      },
+      {
+        "time": 1741055100,
+        "price": 1526.51
+      },
+      {
+        "time": 1741055400,
+        "price": 1525.79
+      },
+      {
+        "time": 1741055700,
+        "price": 1524.07
+      },
+      {
+        "time": 1741056000,
+        "price": 1523.36
+      },
+      {
+        "time": 1741056300,
+        "price": 1522.89
+      },
+      {
+        "time": 1741056600,
+        "price": 1521.25
+      },
+      {
+        "time": 1741056900,
+        "price": 1521.27
+      },
+      {
+        "time": 1741057200,
+        "price": 1521.25
+      },
+      {
+        "time": 1741057500,
+        "price": 1521.22
+      },
+      {
+        "time": 1741057800,
+        "price": 1521.13
+      },
+      {
+        "time": 1741058100,
+        "price": 1519.66
+      },
+      {
+        "time": 1741058400,
+        "price": 1519.4
+      },
+      {
+        "time": 1741058700,
+        "price": 1518.57
+      },
+      {
+        "time": 1741059000,
+        "price": 1518.14
+      },
+      {
+        "time": 1741064400,
+        "price": 1517.94
+      },
+      {
+        "time": 1741064700,
+        "price": 1518.72
+      },
+      {
+        "time": 1741065000,
+        "price": 1518.15
+      },
+      {
+        "time": 1741065300,
+        "price": 1517.97
+      },
+      {
+        "time": 1741065600,
+        "price": 1517.88
+      },
+      {
+        "time": 1741065900,
+        "price": 1517.06
+      },
+      {
+        "time": 1741066200,
+        "price": 1517.97
+      },
+      {
+        "time": 1741066500,
+        "price": 1516.99
+      },
+      {
+        "time": 1741066800,
+        "price": 1516.23
+      },
+      {
+        "time": 1741067100,
+        "price": 1515.38
+      },
+      {
+        "time": 1741067400,
+        "price": 1515.99
+      },
+      {
+        "time": 1741067700,
+        "price": 1516.19
+      },
+      {
+        "time": 1741068000,
+        "price": 1515.05
+      },
+      {
+        "time": 1741068300,
+        "price": 1514.29
+      },
+      {
+        "time": 1741068600,
+        "price": 1513.79
+      },
+      {
+        "time": 1741068900,
+        "price": 1512.69
+      },
+      {
+        "time": 1741069200,
+        "price": 1510.83
+      },
+      {
+        "time": 1741069500,
+        "price": 1509.8
+      },
+      {
+        "time": 1741069800,
+        "price": 1509.24
+      },
+      {
+        "time": 1741070100,
+        "price": 1508.35
+      },
+      {
+        "time": 1741070400,
+        "price": 1507.06
+      },
+      {
+        "time": 1741070700,
+        "price": 1505.36
+      },
+      {
+        "time": 1741071000,
+        "price": 1503.78
+      },
+      {
+        "time": 1741071300,
+        "price": 1503.26
+      },
+      {
+        "time": 1741071600,
+        "price": 1502.5
+      },
+      {
+        "time": 1741138200,
+        "price": 1506.46
+      },
+      {
+        "time": 1741138500,
+        "price": 1506.11
+      },
+      {
+        "time": 1741138800,
+        "price": 1505.2
+      },
+      {
+        "time": 1741139100,
+        "price": 1504.14
+      },
+      {
+        "time": 1741139400,
+        "price": 1503.28
+      },
+      {
+        "time": 1741139700,
+        "price": 1502.83
+      },
+      {
+        "time": 1741140000,
+        "price": 1501.78
+      },
+      {
+        "time": 1741140300,
+        "price": 1500.81
+      },
+      {
+        "time": 1741140600,
+        "price": 1499.86
+      },
+      {
+        "time": 1741140900,
+        "price": 1498.74
+      },
+      {
+        "time": 1741141200,
+        "price": 1498.3
+      },
+      {
+        "time": 1741141500,
+        "price": 1496.95
+      },
+      {
+        "time": 1741141800,
+        "price": 1495.48
+      },
+      {
+        "time": 1741142100,
+        "price": 1495.5
+      },
+      {
+        "time": 1741142400,
+        "price": 1494.69
+      },
+      {
+        "time": 1741142700,
+        "price": 1494.62
+      },
+      {
+        "time": 1741143000,
+        "price": 1494.16
+      },
+      {
+        "time": 1741143300,
+        "price": 1492.81
+      },
+      {
+        "time": 1741143600,
+        "price": 1492.42
+      },
+      {
+        "time": 1741143900,
+        "price": 1492
+      },
+      {
+        "time": 1741144200,
+        "price": 1492.13
+      },
+      {
+        "time": 1741144500,
+        "price": 1492.56
+      },
+      {
+        "time": 1741144800,
+        "price": 1491.74
+      },
+      {
+        "time": 1741145100,
+        "price": 1490.94
+      },
+      {
+        "time": 1741145400,
+        "price": 1490.31
+      },
+      {
+        "time": 1741150800,
+        "price": 1490.24
+      },
+      {
+        "time": 1741151100,
+        "price": 1489.54
+      },
+      {
+        "time": 1741151400,
+        "price": 1489.23
+      },
+      {
+        "time": 1741151700,
+        "price": 1487.9
+      },
+      {
+        "time": 1741152000,
+        "price": 1487.27
+      },
+      {
+        "time": 1741152300,
+        "price": 1486.56
+      },
+      {
+        "time": 1741152600,
+        "price": 1485.22
+      },
+      {
+        "time": 1741152900,
+        "price": 1484.81
+      },
+      {
+        "time": 1741153200,
+        "price": 1484.65
+      },
+      {
+        "time": 1741153500,
+        "price": 1483.07
+      },
+      {
+        "time": 1741153800,
+        "price": 1482.49
+      },
+      {
+        "time": 1741154100,
+        "price": 1482.31
+      },
+      {
+        "time": 1741154400,
+        "price": 1481.6
+      },
+      {
+        "time": 1741154700,
+        "price": 1479.69
+      },
+      {
+        "time": 1741155000,
+        "price": 1479.02
+      },
+      {
+        "time": 1741155300,
+        "price": 1478.05
+      },
+      {
+        "time": 1741155600,
+        "price": 1477.66
+      },
+      {
+        "time": 1741155900,
+        "price": 1476.07
+      },
+      {
+        "time": 1741156200,
+        "price": 1475.61
+      },
+      {
+        "time": 1741156500,
+        "price": 1473.9
+      },
+      {
+        "time": 1741156800,
+        "price": 1473.04
+      },
+      {
+        "time": 1741157100,
+        "price": 1472.17
+      },
+      {
+        "time": 1741157400,
+        "price": 1471.15
+      },
+      {
+        "time": 1741157700,
+        "price": 1470.62
+      },
+      {
+        "time": 1741158000,
+        "price": 1471.59
+      },
+      {
+        "time": 1741224600,
+        "price": 1473.65
+      },
+      {
+        "time": 1741224900,
+        "price": 1472.11
+      },
+      {
+        "time": 1741225200,
+        "price": 1471.51
+      },
+      {
+        "time": 1741225500,
+        "price": 1471.26
+      },
+      {
+        "time": 1741225800,
+        "price": 1470.26
+      },
+      {
+        "time": 1741226100,
+        "price": 1469.12
+      },
+      {
+        "time": 1741226400,
+        "price": 1467.48
+      },
+      {
+        "time": 1741226700,
+        "price": 1467.14
+      },
+      {
+        "time": 1741227000,
+        "price": 1465.94
+      },
+      {
+        "time": 1741227300,
+        "price": 1466.08
+      },
+      {
+        "time": 1741227600,
+        "price": 1465.66
+      },
+      {
+        "time": 1741227900,
+        "price": 1465.69
+      },
+      {
+        "time": 1741228200,
+        "price": 1465.95
+      },
+      {
+        "time": 1741228500,
+        "price": 1466.33
+      },
+      {
+        "time": 1741228800,
+        "price": 1466.28
+      },
+      {
+        "time": 1741229100,
+        "price": 1466.11
+      },
+      {
+        "time": 1741229400,
+        "price": 1465.17
+      },
+      {
+        "time": 1741229700,
+        "price": 1465.63
+      },
+      {
+        "time": 1741230000,
+        "price": 1464.45
+      },
+      {
+        "time": 1741230300,
+        "price": 1464.39
+      },
+      {
+        "time": 1741230600,
+        "price": 1464.46
+      },
+      {
+        "time": 1741230900,
+        "price": 1464.67
+      },
+      {
+        "time": 1741231200,
+        "price": 1464.51
+      },
+      {
+        "time": 1741231500,
+        "price": 1464.47
+      },
+      {
+        "time": 1741231800,
+        "price": 1464.34
+      },
+      {
+        "time": 1741237200,
+        "price": 1464.21
+      },
+      {
+        "time": 1741237500,
+        "price": 1463.63
+      },
+      {
+        "time": 1741237800,
+        "price": 1462.23
+      },
+      {
+        "time": 1741238100,
+        "price": 1460.66
+      },
+      {
+        "time": 1741238400,
+        "price": 1459.46
+      },
+      {
+        "time": 1741238700,
+        "price": 1458.7
+      },
+      {
+        "time": 1741239000,
+        "price": 1457.59
+      },
+      {
+        "time": 1741239300,
+        "price": 1457.7
+      },
+      {
+        "time": 1741239600,
+        "price": 1457.05
+      },
+      {
+        "time": 1741239900,
+        "price": 1455.95
+      },
+      {
+        "time": 1741240200,
+        "price": 1455.68
+      },
+      {
+        "time": 1741240500,
+        "price": 1455.9
+      },
+      {
+        "time": 1741240800,
+        "price": 1455.35
+      },
+      {
+        "time": 1741241100,
+        "price": 1455.39
+      },
+      {
+        "time": 1741241400,
+        "price": 1453.91
+      },
+      {
+        "time": 1741241700,
+        "price": 1453.05
+      },
+      {
+        "time": 1741242000,
+        "price": 1453.07
+      },
+      {
+        "time": 1741242300,
+        "price": 1453.22
+      },
+      {
+        "time": 1741242600,
+        "price": 1452.42
+      },
+      {
+        "time": 1741242900,
+        "price": 1452.19
+      },
+      {
+        "time": 1741243200,
+        "price": 1452.83
+      },
+      {
+        "time": 1741243500,
+        "price": 1452.84
+      },
+      {
+        "time": 1741243800,
+        "price": 1452.36
+      },
+      {
+        "time": 1741244100,
+        "price": 1453
+      },
+      {
+        "time": 1741244400,
+        "price": 1452.88
+      },
+      {
+        "time": 1741311000,
+        "price": 1451.02
+      },
+      {
+        "time": 1741311300,
+        "price": 1451.49
+      },
+      {
+        "time": 1741311600,
+        "price": 1450.6
+      },
+      {
+        "time": 1741311900,
+        "price": 1451.05
+      },
+      {
+        "time": 1741312200,
+        "price": 1450.58
+      },
+      {
+        "time": 1741312500,
+        "price": 1450.03
+      },
+      {
+        "time": 1741312800,
+        "price": 1450.12
+      },
+      {
+        "time": 1741313100,
+        "price": 1449.96
+      },
+      {
+        "time": 1741313400,
+        "price": 1449.84
+      },
+      {
+        "time": 1741313700,
+        "price": 1450.42
+      },
+      {
+        "time": 1741314000,
+        "price": 1451.36
+      },
+      {
+        "time": 1741314300,
+        "price": 1450.91
+      },
+      {
+        "time": 1741314600,
+        "price": 1450.42
+      },
+      {
+        "time": 1741314900,
+        "price": 1451.08
+      },
+      {
+        "time": 1741315200,
+        "price": 1451.42
+      },
+      {
+        "time": 1741315500,
+        "price": 1452.25
+      },
+      {
+        "time": 1741315800,
+        "price": 1452.56
+      },
+      {
+        "time": 1741316100,
+        "price": 1452.37
+      },
+      {
+        "time": 1741316400,
+        "price": 1452.74
+      },
+      {
+        "time": 1741316700,
+        "price": 1452.78
+      },
+      {
+        "time": 1741317000,
+        "price": 1452.43
+      },
+      {
+        "time": 1741317300,
+        "price": 1452.15
+      },
+      {
+        "time": 1741317600,
+        "price": 1451.17
+      },
+      {
+        "time": 1741317900,
+        "price": 1450.71
+      },
+      {
+        "time": 1741318200,
+        "price": 1449.98
+      },
+      {
+        "time": 1741323600,
+        "price": 1450.71
+      },
+      {
+        "time": 1741323900,
+        "price": 1450.44
+      },
+      {
+        "time": 1741324200,
+        "price": 1449.1
+      },
+      {
+        "time": 1741324500,
+        "price": 1448.66
+      },
+      {
+        "time": 1741324800,
+        "price": 1448.23
+      },
+      {
+        "time": 1741325100,
+        "price": 1447.28
+      },
+      {
+        "time": 1741325400,
+        "price": 1446.54
+      },
+      {
+        "time": 1741325700,
+        "price": 1447.23
+      },
+      {
+        "time": 1741326000,
+        "price": 1446.57
+      },
+      {
+        "time": 1741326300,
+        "price": 1447.03
+      },
+      {
+        "time": 1741326600,
+        "price": 1446.59
+      },
+      {
+        "time": 1741326900,
+        "price": 1446.25
+      },
+      {
+        "time": 1741327200,
+        "price": 1446.09
+      },
+      {
+        "time": 1741327500,
+        "price": 1446.38
+      },
+      {
+        "time": 1741327800,
+        "price": 1446.25
+      },
+      {
+        "time": 1741328100,
+        "price": 1447.69
+      },
+      {
+        "time": 1741328400,
+        "price": 1447.79
+      },
+      {
+        "time": 1741328700,
+        "price": 1448.4
+      },
+      {
+        "time": 1741329000,
+        "price": 1448.63
+      },
+      {
+        "time": 1741329300,
+        "price": 1448.42
+      },
+      {
+        "time": 1741329600,
+        "price": 1448.24
+      },
+      {
+        "time": 1741329900,
+        "price": 1448.12
+      },
+      {
+        "time": 1741330200,
+        "price": 1448.27
+      },
+      {
+        "time": 1741330500,
+        "price": 1448.43
+      },
+      {
+        "time": 1741330800,
+        "price": 1449.07
+      },
+      {
+        "time": 1741570200,
+        "price": 1444.97
+      },
+      {
+        "time": 1741570500,
+        "price": 1444.68
+      },
+      {
+        "time": 1741570800,
+        "price": 1445.9
+      },
+      {
+        "time": 1741571100,
+        "price": 1447.21
+      },
+      {
+        "time": 1741571400,
+        "price": 1446.92
+      },
+      {
+        "time": 1741571700,
+        "price": 1447.56
+      },
+      {
+        "time": 1741572000,
+        "price": 1448.45
+      },
+      {
+        "time": 1741572300,
+        "price": 1449.28
+      },
+      {
+        "time": 1741572600,
+        "price": 1450.23
+      },
+      {
+        "time": 1741572900,
+        "price": 1449.84
+      },
+      {
+        "time": 1741573200,
+        "price": 1449.32
+      },
+      {
+        "time": 1741573500,
+        "price": 1449.48
+      },
+      {
+        "time": 1741573800,
+        "price": 1450.48
+      },
+      {
+        "time": 1741574100,
+        "price": 1451.05
+      },
+      {
+        "time": 1741574400,
+        "price": 1450.09
+      },
+      {
+        "time": 1741574700,
+        "price": 1450.18
+      },
+      {
+        "time": 1741575000,
+        "price": 1449.29
+      },
+      {
+        "time": 1741575300,
+        "price": 1449.48
+      },
+      {
+        "time": 1741575600,
+        "price": 1449.58
+      },
+      {
+        "time": 1741575900,
+        "price": 1449.36
+      },
+      {
+        "time": 1741576200,
+        "price": 1449.25
+      },
+      {
+        "time": 1741576500,
+        "price": 1447.69
+      },
+      {
+        "time": 1741576800,
+        "price": 1446.97
+      },
+      {
+        "time": 1741577100,
+        "price": 1446.86
+      },
+      {
+        "time": 1741577400,
+        "price": 1446.89
+      },
+      {
+        "time": 1741582800,
+        "price": 1446.13
+      },
+      {
+        "time": 1741583100,
+        "price": 1445.59
+      },
+      {
+        "time": 1741583400,
+        "price": 1444.87
+      },
+      {
+        "time": 1741583700,
+        "price": 1443.57
+      },
+      {
+        "time": 1741584000,
+        "price": 1443.24
+      },
+      {
+        "time": 1741584300,
+        "price": 1443.75
+      },
+      {
+        "time": 1741584600,
+        "price": 1444.12
+      },
+      {
+        "time": 1741584900,
+        "price": 1442.98
+      },
+      {
+        "time": 1741585200,
+        "price": 1443.36
+      },
+      {
+        "time": 1741585500,
+        "price": 1442.5
+      },
+      {
+        "time": 1741585800,
+        "price": 1442.53
+      },
+      {
+        "time": 1741586100,
+        "price": 1443.12
+      },
+      {
+        "time": 1741586400,
+        "price": 1442.92
+      },
+      {
+        "time": 1741586700,
+        "price": 1444.03
+      },
+      {
+        "time": 1741587000,
+        "price": 1444.55
+      },
+      {
+        "time": 1741587300,
+        "price": 1444.35
+      },
+      {
+        "time": 1741587600,
+        "price": 1443.77
+      },
+      {
+        "time": 1741587900,
+        "price": 1444.52
+      },
+      {
+        "time": 1741588200,
+        "price": 1444.88
+      },
+      {
+        "time": 1741588500,
+        "price": 1444.6
+      },
+      {
+        "time": 1741588800,
+        "price": 1444.03
+      },
+      {
+        "time": 1741589100,
+        "price": 1443.22
+      },
+      {
+        "time": 1741589400,
+        "price": 1443.75
+      },
+      {
+        "time": 1741589700,
+        "price": 1442.58
+      },
+      {
+        "time": 1741590000,
+        "price": 1441.57
+      },
+      {
+        "time": 1741656600,
+        "price": 1439.22
+      },
+      {
+        "time": 1741656900,
+        "price": 1439.44
+      },
+      {
+        "time": 1741657200,
+        "price": 1438.96
+      },
+      {
+        "time": 1741657500,
+        "price": 1438.98
+      },
+      {
+        "time": 1741657800,
+        "price": 1439.15
+      },
+      {
+        "time": 1741658100,
+        "price": 1439.05
+      },
+      {
+        "time": 1741658400,
+        "price": 1439.57
+      },
+      {
+        "time": 1741658700,
+        "price": 1439.99
+      },
+      {
+        "time": 1741659000,
+        "price": 1439.94
+      },
+      {
+        "time": 1741659300,
+        "price": 1439.94
+      },
+      {
+        "time": 1741659600,
+        "price": 1438.93
+      },
+      {
+        "time": 1741659900,
+        "price": 1437.7
+      },
+      {
+        "time": 1741660200,
+        "price": 1437.89
+      },
+      {
+        "time": 1741660500,
+        "price": 1437.16
+      },
+      {
+        "time": 1741660800,
+        "price": 1436.07
+      },
+      {
+        "time": 1741661100,
+        "price": 1434.52
+      },
+      {
+        "time": 1741661400,
+        "price": 1433.65
+      },
+      {
+        "time": 1741661700,
+        "price": 1433.47
+      },
+      {
+        "time": 1741662000,
+        "price": 1432.19
+      },
+      {
+        "time": 1741662300,
+        "price": 1430.72
+      },
+      {
+        "time": 1741662600,
+        "price": 1430.9
+      },
+      {
+        "time": 1741662900,
+        "price": 1430.31
+      },
+      {
+        "time": 1741663200,
+        "price": 1430.01
+      },
+      {
+        "time": 1741663500,
+        "price": 1429.33
+      },
+      {
+        "time": 1741663800,
+        "price": 1429.11
+      },
+      {
+        "time": 1741669200,
+        "price": 1429.08
+      },
+      {
+        "time": 1741669500,
+        "price": 1427.7
+      },
+      {
+        "time": 1741669800,
+        "price": 1427.91
+      },
+      {
+        "time": 1741670100,
+        "price": 1426.61
+      },
+      {
+        "time": 1741670400,
+        "price": 1427.13
+      },
+      {
+        "time": 1741670700,
+        "price": 1426.94
+      },
+      {
+        "time": 1741671000,
+        "price": 1426.14
+      },
+      {
+        "time": 1741671300,
+        "price": 1425.7
+      },
+      {
+        "time": 1741671600,
+        "price": 1425.95
+      },
+      {
+        "time": 1741671900,
+        "price": 1424.95
+      },
+      {
+        "time": 1741672200,
+        "price": 1424.08
+      },
+      {
+        "time": 1741672500,
+        "price": 1423.9
+      },
+      {
+        "time": 1741672800,
+        "price": 1424.69
+      },
+      {
+        "time": 1741673100,
+        "price": 1424.53
+      },
+      {
+        "time": 1741673400,
+        "price": 1424.21
+      },
+      {
+        "time": 1741673700,
+        "price": 1423.35
+      },
+      {
+        "time": 1741674000,
+        "price": 1423.27
+      },
+      {
+        "time": 1741674300,
+        "price": 1422.54
+      },
+      {
+        "time": 1741674600,
+        "price": 1421.16
+      },
+      {
+        "time": 1741674900,
+        "price": 1420.67
+      },
+      {
+        "time": 1741675200,
+        "price": 1420.12
+      },
+      {
+        "time": 1741675500,
+        "price": 1418.66
+      },
+      {
+        "time": 1741675800,
+        "price": 1417.7
+      },
+      {
+        "time": 1741676100,
+        "price": 1417.34
+      },
+      {
+        "time": 1741676400,
+        "price": 1416.95
+      },
+      {
+        "time": 1741743000,
+        "price": 1417.65
+      },
+      {
+        "time": 1741743300,
+        "price": 1416.54
+      },
+      {
+        "time": 1741743600,
+        "price": 1416.82
+      },
+      {
+        "time": 1741743900,
+        "price": 1415.54
+      },
+      {
+        "time": 1741744200,
+        "price": 1414.35
+      },
+      {
+        "time": 1741744500,
+        "price": 1413.23
+      },
+      {
+        "time": 1741744800,
+        "price": 1412.89
+      },
+      {
+        "time": 1741745100,
+        "price": 1412.61
+      },
+      {
+        "time": 1741745400,
+        "price": 1412.33
+      },
+      {
+        "time": 1741745700,
+        "price": 1411.85
+      },
+      {
+        "time": 1741746000,
+        "price": 1410.23
+      },
+      {
+        "time": 1741746300,
+        "price": 1409.87
+      },
+      {
+        "time": 1741746600,
+        "price": 1408.03
+      },
+      {
+        "time": 1741746900,
+        "price": 1407.13
+      },
+      {
+        "time": 1741747200,
+        "price": 1406.53
+      },
+      {
+        "time": 1741747500,
+        "price": 1404.74
+      },
+      {
+        "time": 1741747800,
+        "price": 1403.45
+      },
+      {
+        "time": 1741748100,
+        "price": 1402.7
+      },
+      {
+        "time": 1741748400,
+        "price": 1401.92
+      },
+      {
+        "time": 1741748700,
+        "price": 1401.17
+      },
+      {
+        "time": 1741749000,
+        "price": 1400.07
+      },
+      {
+        "time": 1741749300,
+        "price": 1400.11
+      },
+      {
+        "time": 1741749600,
+        "price": 1400.21
+      },
+      {
+        "time": 1741749900,
+        "price": 1399.52
+      },
+      {
+        "time": 1741750200,
+        "price": 1399.74
+      },
+      {
+        "time": 1741755600,
+        "price": 1398.93
+      },
+      {
+        "time": 1741755900,
+        "price": 1399.42
+      },
+      {
+        "time": 1741756200,
+        "price": 1399.78
+      },
+      {
+        "time": 1741756500,
+        "price": 1398.68
+      },
+      {
+        "time": 1741756800,
+        "price": 1398.01
+      },
+      {
+        "time": 1741757100,
+        "price": 1397.06
+      },
+      {
+        "time": 1741757400,
+        "price": 1396.33
+      },
+      {
+        "time": 1741757700,
+        "price": 1396.53
+      },
+      {
+        "time": 1741758000,
+        "price": 1396.63
+      },
+      {
+        "time": 1741758300,
+        "price": 1396.83
+      },
+      {
+        "time": 1741758600,
+        "price": 1396.65
+      },
+      {
+        "time": 1741758900,
+        "price": 1395.51
+      },
+      {
+        "time": 1741759200,
+        "price": 1394.9
+      },
+      {
+        "time": 1741759500,
+        "price": 1394.25
+      },
+      {
+        "time": 1741759800,
+        "price": 1393.74
+      },
+      {
+        "time": 1741760100,
+        "price": 1392.5
+      },
+      {
+        "time": 1741760400,
+        "price": 1392.06
+      },
+      {
+        "time": 1741760700,
+        "price": 1390.82
+      },
+      {
+        "time": 1741761000,
+        "price": 1389.36
+      },
+      {
+        "time": 1741761300,
+        "price": 1388.67
+      },
+      {
+        "time": 1741761600,
+        "price": 1388.03
+      },
+      {
+        "time": 1741761900,
+        "price": 1387.75
+      },
+      {
+        "time": 1741762200,
+        "price": 1387.43
+      },
+      {
+        "time": 1741762500,
+        "price": 1385.63
+      },
+      {
+        "time": 1741762800,
+        "price": 1384.51
+      },
+      {
+        "time": 1741829400,
+        "price": 1388.7
+      },
+      {
+        "time": 1741829700,
+        "price": 1388.56
+      },
+      {
+        "time": 1741830000,
+        "price": 1387.99
+      },
+      {
+        "time": 1741830300,
+        "price": 1388.38
+      },
+      {
+        "time": 1741830600,
+        "price": 1388.42
+      },
+      {
+        "time": 1741830900,
+        "price": 1388.55
+      },
+      {
+        "time": 1741831200,
+        "price": 1388.67
+      },
+      {
+        "time": 1741831500,
+        "price": 1389.09
+      },
+      {
+        "time": 1741831800,
+        "price": 1387.94
+      },
+      {
+        "time": 1741832100,
+        "price": 1387.37
+      },
+      {
+        "time": 1741832400,
+        "price": 1386.77
+      },
+      {
+        "time": 1741832700,
+        "price": 1387.4
+      },
+      {
+        "time": 1741833000,
+        "price": 1387
+      },
+      {
+        "time": 1741833300,
+        "price": 1386.6
+      },
+      {
+        "time": 1741833600,
+        "price": 1387.27
+      },
+      {
+        "time": 1741833900,
+        "price": 1388.58
+      },
+      {
+        "time": 1741834200,
+        "price": 1389.03
+      },
+      {
+        "time": 1741834500,
+        "price": 1389.81
+      },
+      {
+        "time": 1741834800,
+        "price": 1389.61
+      },
+      {
+        "time": 1741835100,
+        "price": 1389.77
+      },
+      {
+        "time": 1741835400,
+        "price": 1390.7
+      },
+      {
+        "time": 1741835700,
+        "price": 1391.95
+      },
+      {
+        "time": 1741836000,
+        "price": 1393.6
+      },
+      {
+        "time": 1741836300,
+        "price": 1393.94
+      },
+      {
+        "time": 1741836600,
+        "price": 1395
+      },
+      {
+        "time": 1741842000,
+        "price": 1396.04
+      },
+      {
+        "time": 1741842300,
+        "price": 1396.65
+      },
+      {
+        "time": 1741842600,
+        "price": 1398.1
+      },
+      {
+        "time": 1741842900,
+        "price": 1398.59
+      },
+      {
+        "time": 1741843200,
+        "price": 1399.96
+      },
+      {
+        "time": 1741843500,
+        "price": 1400.43
+      },
+      {
+        "time": 1741843800,
+        "price": 1400.05
+      },
+      {
+        "time": 1741844100,
+        "price": 1400.99
+      },
+      {
+        "time": 1741844400,
+        "price": 1400.75
+      },
+      {
+        "time": 1741844700,
+        "price": 1400.33
+      },
+      {
+        "time": 1741845000,
+        "price": 1401.58
+      },
+      {
+        "time": 1741845300,
+        "price": 1402.32
+      },
+      {
+        "time": 1741845600,
+        "price": 1402.13
+      },
+      {
+        "time": 1741845900,
+        "price": 1402.07
+      },
+      {
+        "time": 1741846200,
+        "price": 1402.88
+      },
+      {
+        "time": 1741846500,
+        "price": 1402.47
+      },
+      {
+        "time": 1741846800,
+        "price": 1402.49
+      },
+      {
+        "time": 1741847100,
+        "price": 1402.35
+      },
+      {
+        "time": 1741847400,
+        "price": 1403.16
+      },
+      {
+        "time": 1741847700,
+        "price": 1403.92
+      },
+      {
+        "time": 1741848000,
+        "price": 1404.93
+      },
+      {
+        "time": 1741848300,
+        "price": 1405.72
+      },
+      {
+        "time": 1741848600,
+        "price": 1405.76
+      },
+      {
+        "time": 1741848900,
+        "price": 1406.27
+      },
+      {
+        "time": 1741849200,
+        "price": 1407.41
+      },
+      {
+        "time": 1741915800,
+        "price": 1410.07
+      },
+      {
+        "time": 1741916100,
+        "price": 1410.03
+      },
+      {
+        "time": 1741916400,
+        "price": 1410.85
+      },
+      {
+        "time": 1741916700,
+        "price": 1410.39
+      },
+      {
+        "time": 1741917000,
+        "price": 1411.28
+      },
+      {
+        "time": 1741917300,
+        "price": 1410.94
+      },
+      {
+        "time": 1741917600,
+        "price": 1410.79
+      },
+      {
+        "time": 1741917900,
+        "price": 1410.53
+      },
+      {
+        "time": 1741918200,
+        "price": 1411.01
+      },
+      {
+        "time": 1741918500,
+        "price": 1411.89
+      },
+      {
+        "time": 1741918800,
+        "price": 1412.95
+      },
+      {
+        "time": 1741919100,
+        "price": 1413.71
+      },
+      {
+        "time": 1741919400,
+        "price": 1414.48
+      },
+      {
+        "time": 1741919700,
+        "price": 1415.69
+      },
+      {
+        "time": 1741920000,
+        "price": 1417.1
+      },
+      {
+        "time": 1741920300,
+        "price": 1418.77
+      },
+      {
+        "time": 1741920600,
+        "price": 1419.42
+      },
+      {
+        "time": 1741920900,
+        "price": 1420.84
+      },
+      {
+        "time": 1741921200,
+        "price": 1421.27
+      },
+      {
+        "time": 1741921500,
+        "price": 1422.7
+      },
+      {
+        "time": 1741921800,
+        "price": 1424.36
+      },
+      {
+        "time": 1741922100,
+        "price": 1424.42
+      },
+      {
+        "time": 1741922400,
+        "price": 1425.63
+      },
+      {
+        "time": 1741922700,
+        "price": 1425.91
+      },
+      {
+        "time": 1741923000,
+        "price": 1427.25
+      },
+      {
+        "time": 1741928400,
+        "price": 1428.12
+      },
+      {
+        "time": 1741928700,
+        "price": 1428.6
+      },
+      {
+        "time": 1741929000,
+        "price": 1429.65
+      },
+      {
+        "time": 1741929300,
+        "price": 1430.93
+      },
+      {
+        "time": 1741929600,
+        "price": 1431.56
+      },
+      {
+        "time": 1741929900,
+        "price": 1431.59
+      },
+      {
+        "time": 1741930200,
+        "price": 1432.76
+      },
+      {
+        "time": 1741930500,
+        "price": 1433.1
+      },
+      {
+        "time": 1741930800,
+        "price": 1433.1
+      },
+      {
+        "time": 1741931100,
+        "price": 1433.42
+      },
+      {
+        "time": 1741931400,
+        "price": 1432.95
+      },
+      {
+        "time": 1741931700,
+        "price": 1433.89
+      },
+      {
+        "time": 1741932000,
+        "price": 1434.1
+      },
+      {
+        "time": 1741932300,
+        "price": 1435.37
+      },
+      {
+        "time": 1741932600,
+        "price": 1436.07
+      },
+      {
+        "time": 1741932900,
+        "price": 1436.75
+      },
+      {
+        "time": 1741933200,
+        "price": 1437.49
+      },
+      {
+        "time": 1741933500,
+        "price": 1437.53
+      },
+      {
+        "time": 1741933800,
+        "price": 1437.65
+      },
+      {
+        "time": 1741934100,
+        "price": 1439.46
+      },
+      {
+        "time": 1741934400,
+        "price": 1440.73
+      },
+      {
+        "time": 1741934700,
+        "price": 1441.29
+      },
+      {
+        "time": 1741935000,
+        "price": 1442.06
+      },
+      {
+        "time": 1741935300,
+        "price": 1443.26
+      },
+      {
+        "time": 1741935600,
+        "price": 1444.17
+      },
+      {
+        "time": 1742175000,
+        "price": 1443.13
+      },
+      {
+        "time": 1742175300,
+        "price": 1443.54
+      },
+      {
+        "time": 1742175600,
+        "price": 1444.72
+      },
+      {
+        "time": 1742175900,
+        "price": 1445.09
+      },
+      {
+        "time": 1742176200,
+        "price": 1446.51
+      },
+      {
+        "time": 1742176500,
+        "price": 1447.38
+      },
+      {
+        "time": 1742176800,
+        "price": 1447.64
+      },
+      {
+        "time": 1742177100,
+        "price": 1448.64
+      },
+      {
+        "time": 1742177400,
+        "price": 1449.47
+      },
+      {
+        "time": 1742177700,
+        "price": 1450.17
+      },
+      {
+        "time": 1742178000,
+        "price": 1451.39
+      },
+      {
+        "time": 1742178300,
+        "price": 1452.22
+      },
+      {
+        "time": 1742178600,
+        "price": 1452.83
+      },
+      {
+        "time": 1742178900,
+        "price": 1454.24
+      },
+      {
+        "time": 1742179200,
+        "price": 1455.96
+      },
+      {
+        "time": 1742179500,
+        "price": 1457.1
+      },
+      {
+        "time": 1742179800,
+        "price": 1457.85
+      },
+      {
+        "time": 1742180100,
+        "price": 1458.12
+      },
+      {
+        "time": 1742180400,
+        "price": 1459.04
+      },
+      {
+        "time": 1742180700,
+        "price": 1459.49
+      },
+      {
+        "time": 1742181000,
+        "price": 1461.26
+      },
+      {
+        "time": 1742181300,
+        "price": 1461.39
+      },
+      {
+        "time": 1742181600,
+        "price": 1461.64
+      },
+      {
+        "time": 1742181900,
+        "price": 1462.33
+      },
+      {
+        "time": 1742182200,
+        "price": 1463.36
+      },
+      {
+        "time": 1742187600,
+        "price": 1463.48
+      },
+      {
+        "time": 1742187900,
+        "price": 1463.65
+      },
+      {
+        "time": 1742188200,
+        "price": 1464.05
+      },
+      {
+        "time": 1742188500,
+        "price": 1463.52
+      },
+      {
+        "time": 1742188800,
+        "price": 1463.35
+      },
+      {
+        "time": 1742189100,
+        "price": 1462.9
+      },
+      {
+        "time": 1742189400,
+        "price": 1463.88
+      },
+      {
+        "time": 1742189700,
+        "price": 1463.68
+      },
+      {
+        "time": 1742190000,
+        "price": 1464.36
+      },
+      {
+        "time": 1742190300,
+        "price": 1464.74
+      },
+      {
+        "time": 1742190600,
+        "price": 1464.44
+      },
+      {
+        "time": 1742190900,
+        "price": 1465.96
+      },
+      {
+        "time": 1742191200,
+        "price": 1466.03
+      },
+      {
+        "time": 1742191500,
+        "price": 1466.16
+      },
+      {
+        "time": 1742191800,
+        "price": 1466.35
+      },
+      {
+        "time": 1742192100,
+        "price": 1468.31
+      },
+      {
+        "time": 1742192400,
+        "price": 1468.45
+      },
+      {
+        "time": 1742192700,
+        "price": 1470.21
+      },
+      {
+        "time": 1742193000,
+        "price": 1471.31
+      },
+      {
+        "time": 1742193300,
+        "price": 1471.84
+      },
+      {
+        "time": 1742193600,
+        "price": 1473.73
+      },
+      {
+        "time": 1742193900,
+        "price": 1474.51
+      },
+      {
+        "time": 1742194200,
+        "price": 1475.58
+      },
+      {
+        "time": 1742194500,
+        "price": 1475.8
+      },
+      {
+        "time": 1742194800,
+        "price": 1477.31
+      },
+      {
+        "time": 1742261400,
+        "price": 1473.92
+      },
+      {
+        "time": 1742261700,
+        "price": 1474.16
+      },
+      {
+        "time": 1742262000,
+        "price": 1474.45
+      },
+      {
+        "time": 1742262300,
+        "price": 1474.48
+      },
+      {
+        "time": 1742262600,
+        "price": 1474.61
+      },
+      {
+        "time": 1742262900,
+        "price": 1476.21
+      },
+      {
+        "time": 1742263200,
+        "price": 1476.39
+      },
+      {
+        "time": 1742263500,
+        "price": 1476.4
+      },
+      {
+        "time": 1742263800,
+        "price": 1477.71
+      },
+      {
+        "time": 1742264100,
+        "price": 1478.36
+      },
+      {
+        "time": 1742264400,
+        "price": 1478.94
+      },
+      {
+        "time": 1742264700,
+        "price": 1480.58
+      },
+      {
+        "time": 1742265000,
+        "price": 1480.66
+      },
+      {
+        "time": 1742265300,
+        "price": 1480.64
+      },
+      {
+        "time": 1742265600,
+        "price": 1480.82
+      },
+      {
+        "time": 1742265900,
+        "price": 1481.18
+      },
+      {
+        "time": 1742266200,
+        "price": 1481.12
+      },
+      {
+        "time": 1742266500,
+        "price": 1481.67
+      },
+      {
+        "time": 1742266800,
+        "price": 1481.81
+      },
+      {
+        "time": 1742267100,
+        "price": 1482.7
+      },
+      {
+        "time": 1742267400,
+        "price": 1482.33
+      },
+      {
+        "time": 1742267700,
+        "price": 1482.24
+      },
+      {
+        "time": 1742268000,
+        "price": 1482.53
+      },
+      {
+        "time": 1742268300,
+        "price": 1483.28
+      },
+      {
+        "time": 1742268600,
+        "price": 1483.86
+      },
+      {
+        "time": 1742274000,
+        "price": 1482.88
+      },
+      {
+        "time": 1742274300,
+        "price": 1482.57
+      },
+      {
+        "time": 1742274600,
+        "price": 1481.87
+      },
+      {
+        "time": 1742274900,
+        "price": 1481.55
+      },
+      {
+        "time": 1742275200,
+        "price": 1482.42
+      },
+      {
+        "time": 1742275500,
+        "price": 1481.84
+      },
+      {
+        "time": 1742275800,
+        "price": 1481.97
+      },
+      {
+        "time": 1742276100,
+        "price": 1483.03
+      },
+      {
+        "time": 1742276400,
+        "price": 1484.16
+      },
+      {
+        "time": 1742276700,
+        "price": 1483.87
+      },
+      {
+        "time": 1742277000,
+        "price": 1484.9
+      },
+      {
+        "time": 1742277300,
+        "price": 1484.54
+      },
+      {
+        "time": 1742277600,
+        "price": 1485.47
+      },
+      {
+        "time": 1742277900,
+        "price": 1485.21
+      },
+      {
+        "time": 1742278200,
+        "price": 1485.63
+      },
+      {
+        "time": 1742278500,
+        "price": 1485.65
+      },
+      {
+        "time": 1742278800,
+        "price": 1486.26
+      },
+      {
+        "time": 1742279100,
+        "price": 1488.01
+      },
+      {
+        "time": 1742279400,
+        "price": 1488.6
+      },
+      {
+        "time": 1742279700,
+        "price": 1488.74
+      },
+      {
+        "time": 1742280000,
+        "price": 1490.11
+      },
+      {
+        "time": 1742280300,
+        "price": 1490.81
+      },
+      {
+        "time": 1742280600,
+        "price": 1490.64
+      },
+      {
+        "time": 1742280900,
+        "price": 1490.08
+      },
+      {
+        "time": 1742281200,
+        "price": 1490.6
+      },
+      {
+        "time": 1742347800,
+        "price": 1486.7
+      },
+      {
+        "time": 1742348100,
+        "price": 1487.8
+      },
+      {
+        "time": 1742348400,
+        "price": 1487.74
+      },
+      {
+        "time": 1742348700,
+        "price": 1487.68
+      },
+      {
+        "time": 1742349000,
+        "price": 1487.79
+      },
+      {
+        "time": 1742349300,
+        "price": 1489.41
+      },
+      {
+        "time": 1742349600,
+        "price": 1489.43
+      },
+      {
+        "time": 1742349900,
+        "price": 1490.03
+      },
+      {
+        "time": 1742350200,
+        "price": 1490.68
+      },
+      {
+        "time": 1742350500,
+        "price": 1492.08
+      },
+      {
+        "time": 1742350800,
+        "price": 1492.66
+      },
+      {
+        "time": 1742351100,
+        "price": 1493.18
+      },
+      {
+        "time": 1742351400,
+        "price": 1492.41
+      },
+      {
+        "time": 1742351700,
+        "price": 1492.04
+      },
+      {
+        "time": 1742352000,
+        "price": 1491.67
+      },
+      {
+        "time": 1742352300,
+        "price": 1492.42
+      },
+      {
+        "time": 1742352600,
+        "price": 1491.95
+      },
+      {
+        "time": 1742352900,
+        "price": 1491.56
+      },
+      {
+        "time": 1742353200,
+        "price": 1490.88
+      },
+      {
+        "time": 1742353500,
+        "price": 1491.07
+      },
+      {
+        "time": 1742353800,
+        "price": 1490.97
+      },
+      {
+        "time": 1742354100,
+        "price": 1490.21
+      },
+      {
+        "time": 1742354400,
+        "price": 1491.07
+      },
+      {
+        "time": 1742354700,
+        "price": 1490.03
+      },
+      {
+        "time": 1742355000,
+        "price": 1489.41
+      },
+      {
+        "time": 1742360400,
+        "price": 1488.93
+      },
+      {
+        "time": 1742360700,
+        "price": 1489.86
+      },
+      {
+        "time": 1742361000,
+        "price": 1490.34
+      },
+      {
+        "time": 1742361300,
+        "price": 1491.67
+      },
+      {
+        "time": 1742361600,
+        "price": 1491.32
+      },
+      {
+        "time": 1742361900,
+        "price": 1492
+      },
+      {
+        "time": 1742362200,
+        "price": 1493.29
+      },
+      {
+        "time": 1742362500,
+        "price": 1494.45
+      },
+      {
+        "time": 1742362800,
+        "price": 1495.53
+      },
+      {
+        "time": 1742363100,
+        "price": 1495.09
+      },
+      {
+        "time": 1742363400,
+        "price": 1495.87
+      },
+      {
+        "time": 1742363700,
+        "price": 1496.53
+      },
+      {
+        "time": 1742364000,
+        "price": 1496.54
+      },
+      {
+        "time": 1742364300,
+        "price": 1496.57
+      },
+      {
+        "time": 1742364600,
+        "price": 1497.32
+      },
+      {
+        "time": 1742364900,
+        "price": 1498.82
+      },
+      {
+        "time": 1742365200,
+        "price": 1499.88
+      },
+      {
+        "time": 1742365500,
+        "price": 1499.53
+      },
+      {
+        "time": 1742365800,
+        "price": 1499.3
+      },
+      {
+        "time": 1742366100,
+        "price": 1499.26
+      },
+      {
+        "time": 1742366400,
+        "price": 1499.19
+      },
+      {
+        "time": 1742366700,
+        "price": 1499.3
+      },
+      {
+        "time": 1742367000,
+        "price": 1498.71
+      },
+      {
+        "time": 1742367300,
+        "price": 1498.24
+      },
+      {
+        "time": 1742367600,
+        "price": 1498.32
+      },
+      {
+        "time": 1742434200,
+        "price": 1500.41
+      },
+      {
+        "time": 1742434500,
+        "price": 1500.95
+      },
+      {
+        "time": 1742434800,
+        "price": 1501.48
+      },
+      {
+        "time": 1742435100,
+        "price": 1503.09
+      },
+      {
+        "time": 1742435400,
+        "price": 1503.29
+      },
+      {
+        "time": 1742435700,
+        "price": 1503.05
+      },
+      {
+        "time": 1742436000,
+        "price": 1503.48
+      },
+      {
+        "time": 1742436300,
+        "price": 1503.44
+      },
+      {
+        "time": 1742436600,
+        "price": 1504.18
+      },
+      {
+        "time": 1742436900,
+        "price": 1503.74
+      },
+      {
+        "time": 1742437200,
+        "price": 1504.4
+      },
+      {
+        "time": 1742437500,
+        "price": 1504.57
+      },
+      {
+        "time": 1742437800,
+        "price": 1504.02
+      },
+      {
+        "time": 1742438100,
+        "price": 1503.94
+      },
+      {
+        "time": 1742438400,
+        "price": 1504.04
+      },
+      {
+        "time": 1742438700,
+        "price": 1503.71
+      },
+      {
+        "time": 1742439000,
+        "price": 1504.19
+      },
+      {
+        "time": 1742439300,
+        "price": 1504.26
+      },
+      {
+        "time": 1742439600,
+        "price": 1505.33
+      },
+      {
+        "time": 1742439900,
+        "price": 1506.28
+      },
+      {
+        "time": 1742440200,
+        "price": 1506.66
+      },
+      {
+        "time": 1742440500,
+        "price": 1507.75
+      },
+      {
+        "time": 1742440800,
+        "price": 1507.72
+      },
+      {
+        "time": 1742441100,
+        "price": 1507.91
+      },
+      {
+        "time": 1742441400,
+        "price": 1508.43
+      },
+      {
+        "time": 1742446800,
+        "price": 1509.76
+      },
+      {
+        "time": 1742447100,
+        "price": 1511.5
+      },
+      {
+        "time": 1742447400,
+        "price": 1512
+      },
+      {
+        "time": 1742447700,
+        "price": 1512.29
+      },
+      {
+        "time": 1742448000,
+        "price": 1512.74
+      },
+      {
+        "time": 1742448300,
+        "price": 1513.38
+      },
+      {
+        "time": 1742448600,
+        "price": 1514.95
+      },
+      {
+        "time": 1742448900,
+        "price": 1515.96
+      },
+      {
+        "time": 1742449200,
+        "price": 1516.77
+      },
+      {
+        "time": 1742449500,
+        "price": 1518.38
+      },
+      {
+        "time": 1742449800,
+        "price": 1519.3
+      },
+      {
+        "time": 1742450100,
+        "price": 1520.54
+      },
+      {
+        "time": 1742450400,
+        "price": 1520.67
+      },
+      {
+        "time": 1742450700,
+        "price": 1521.26
+      },
+      {
+        "time": 1742451000,
+        "price": 1521.61
+      },
+      {
+        "time": 1742451300,
+        "price": 1521.59
+      },
+      {
+        "time": 1742451600,
+        "price": 1522
+      },
+      {
+        "time": 1742451900,
+        "price": 1522.95
+      },
+      {
+        "time": 1742452200,
+        "price": 1523.19
+      },
+      {
+        "time": 1742452500,
+        "price": 1524.24
+      },
+      {
+        "time": 1742452800,
+        "price": 1525.32
+      },
+      {
+        "time": 1742453100,
+        "price": 1525.49
+      },
+      {
+        "time": 1742453400,
+        "price": 1525.77
+      },
+      {
+        "time": 1742453700,
+        "price": 1525.61
+      },
+      {
+        "time": 1742454000,
+        "price": 1525.55
+      },
+      {
+        "time": 1742520600,
+        "price": 1529.6
+      },
+      {
+        "time": 1742520900,
+        "price": 1529.77
+      },
+      {
+        "time": 1742521200,
+        "price": 1530.9
+      },
+      {
+        "time": 1742521500,
+        "price": 1531.12
+      },
+      {
+        "time": 1742521800,
+        "price": 1532.34
+      },
+      {
+        "time": 1742522100,
+        "price": 1532.42
+      },
+      {
+        "time": 1742522400,
+        "price": 1532.94
+      },
+      {
+        "time": 1742522700,
+        "price": 1534.18
+      },
+      {
+        "time": 1742523000,
+        "price": 1534.19
+      },
+      {
+        "time": 1742523300,
+        "price": 1534.07
+      },
+      {
+        "time": 1742523600,
+        "price": 1534.43
+      },
+      {
+        "time": 1742523900,
+        "price": 1534.36
+      },
+      {
+        "time": 1742524200,
+        "price": 1535.1
+      },
+      {
+        "time": 1742524500,
+        "price": 1535.25
+      },
+      {
+        "time": 1742524800,
+        "price": 1536.82
+      },
+      {
+        "time": 1742525100,
+        "price": 1538.18
+      },
+      {
+        "time": 1742525400,
+        "price": 1538.96
+      },
+      {
+        "time": 1742525700,
+        "price": 1539.04
+      },
+      {
+        "time": 1742526000,
+        "price": 1539.91
+      },
+      {
+        "time": 1742526300,
+        "price": 1540.6
+      },
+      {
+        "time": 1742526600,
+        "price": 1541.97
+      },
+      {
+        "time": 1742526900,
+        "price": 1543.62
+      },
+      {
+        "time": 1742527200,
+        "price": 1544.68
+      },
+      {
+        "time": 1742527500,
+        "price": 1546.1
+      },
+      {
+        "time": 1742527800,
+        "price": 1546.88
+      },
+      {
+        "time": 1742533200,
+        "price": 1547.44
+      },
+      {
+        "time": 1742533500,
+        "price": 1548.4
+      },
+      {
+        "time": 1742533800,
+        "price": 1550.46
+      },
+      {
+        "time": 1742534100,
+        "price": 1550.86
+      },
+      {
+        "time": 1742534400,
+        "price": 1553.01
+      },
+      {
+        "time": 1742534700,
+        "price": 1553.39
+      },
+      {
+        "time": 1742535000,
+        "price": 1555.05
+      },
+      {
+        "time": 1742535300,
+        "price": 1556.02
+      },
+      {
+        "time": 1742535600,
+        "price": 1557.6
+      },
+      {
+        "time": 1742535900,
+        "price": 1557.5
+      },
+      {
+        "time": 1742536200,
+        "price": 1557.35
+      },
+      {
+        "time": 1742536500,
+        "price": 1557.71
+      },
+      {
+        "time": 1742536800,
+        "price": 1558.57
+      },
+      {
+        "time": 1742537100,
+        "price": 1559.82
+      },
+      {
+        "time": 1742537400,
+        "price": 1560.8
+      },
+      {
+        "time": 1742537700,
+        "price": 1561.52
+      },
+      {
+        "time": 1742538000,
+        "price": 1562.03
+      },
+      {
+        "time": 1742538300,
+        "price": 1561.82
+      },
+      {
+        "time": 1742538600,
+        "price": 1561.17
+      },
+      {
+        "time": 1742538900,
+        "price": 1561.8
+      },
+      {
+        "time": 1742539200,
+        "price": 1562.43
+      },
+      {
+        "time": 1742539500,
+        "price": 1562.91
+      },
+      {
+        "time": 1742539800,
+        "price": 1563.41
+      },
+      {
+        "time": 1742540100,
+        "price": 1564.12
+      },
+      {
+        "time": 1742540400,
+        "price": 1564.04
+      },
+      {
+        "time": 1742779800,
+        "price": 1569.23
+      },
+      {
+        "time": 1742780100,
+        "price": 1569.66
+      },
+      {
+        "time": 1742780400,
+        "price": 1569.48
+      },
+      {
+        "time": 1742780700,
+        "price": 1569.87
+      },
+      {
+        "time": 1742781000,
+        "price": 1570.71
+      },
+      {
+        "time": 1742781300,
+        "price": 1570.94
+      },
+      {
+        "time": 1742781600,
+        "price": 1571.52
+      },
+      {
+        "time": 1742781900,
+        "price": 1572.15
+      },
+      {
+        "time": 1742782200,
+        "price": 1572.93
+      },
+      {
+        "time": 1742782500,
+        "price": 1572.46
+      },
+      {
+        "time": 1742782800,
+        "price": 1572.98
+      },
+      {
+        "time": 1742783100,
+        "price": 1574.06
+      },
+      {
+        "time": 1742783400,
+        "price": 1575.07
+      },
+      {
+        "time": 1742783700,
+        "price": 1576.04
+      },
+      {
+        "time": 1742784000,
+        "price": 1576.69
+      },
+      {
+        "time": 1742784300,
+        "price": 1578.05
+      },
+      {
+        "time": 1742784600,
+        "price": 1577.97
+      },
+      {
+        "time": 1742784900,
+        "price": 1579.11
+      },
+      {
+        "time": 1742785200,
+        "price": 1579.28
+      },
+      {
+        "time": 1742785500,
+        "price": 1579.76
+      },
+      {
+        "time": 1742785800,
+        "price": 1580.37
+      },
+      {
+        "time": 1742786100,
+        "price": 1581.54
+      },
+      {
+        "time": 1742786400,
+        "price": 1583.9
+      },
+      {
+        "time": 1742786700,
+        "price": 1585.79
+      },
+      {
+        "time": 1742787000,
+        "price": 1586.72
+      },
+      {
+        "time": 1742792400,
+        "price": 1587.13
+      },
+      {
+        "time": 1742792700,
+        "price": 1587.03
+      },
+      {
+        "time": 1742793000,
+        "price": 1587.65
+      },
+      {
+        "time": 1742793300,
+        "price": 1588.45
+      },
+      {
+        "time": 1742793600,
+        "price": 1588.41
+      },
+      {
+        "time": 1742793900,
+        "price": 1588.82
+      },
+      {
+        "time": 1742794200,
+        "price": 1589.14
+      },
+      {
+        "time": 1742794500,
+        "price": 1588.92
+      },
+      {
+        "time": 1742794800,
+        "price": 1590.17
+      },
+      {
+        "time": 1742795100,
+        "price": 1589.89
+      },
+      {
+        "time": 1742795400,
+        "price": 1589.55
+      },
+      {
+        "time": 1742795700,
+        "price": 1590.62
+      },
+      {
+        "time": 1742796000,
+        "price": 1591.34
+      },
+      {
+        "time": 1742796300,
+        "price": 1592.13
+      },
+      {
+        "time": 1742796600,
+        "price": 1591.44
+      },
+      {
+        "time": 1742796900,
+        "price": 1590.94
+      },
+      {
+        "time": 1742797200,
+        "price": 1590.25
+      },
+      {
+        "time": 1742797500,
+        "price": 1589.9
+      },
+      {
+        "time": 1742797800,
+        "price": 1590.03
+      },
+      {
+        "time": 1742798100,
+        "price": 1590.95
+      },
+      {
+        "time": 1742798400,
+        "price": 1592.75
+      },
+      {
+        "time": 1742798700,
+        "price": 1592.69
+      },
+      {
+        "time": 1742799000,
+        "price": 1593.94
+      },
+      {
+        "time": 1742799300,
+        "price": 1594.95
+      },
+      {
+        "time": 1742799600,
+        "price": 1595.83
+      },
+      {
+        "time": 1742866200,
+        "price": 1596.46
+      },
+      {
+        "time": 1742866500,
+        "price": 1597.32
+      },
+      {
+        "time": 1742866800,
+        "price": 1596.39
+      },
+      {
+        "time": 1742867100,
+        "price": 1597.33
+      },
+      {
+        "time": 1742867400,
+        "price": 1596.59
+      },
+      {
+        "time": 1742867700,
+        "price": 1596.66
+      },
+      {
+        "time": 1742868000,
+        "price": 1596.74
+      },
+      {
+        "time": 1742868300,
+        "price": 1598.07
+      },
+      {
+        "time": 1742868600,
+        "price": 1599.01
+      },
+      {
+        "time": 1742868900,
+        "price": 1599.06
+      },
+      {
+        "time": 1742869200,
+        "price": 1600
+      },
+      {
+        "time": 1742869500,
+        "price": 1599.6
+      },
+      {
+        "time": 1742869800,
+        "price": 1601.09
+      },
+      {
+        "time": 1742870100,
+        "price": 1601.14
+      },
+      {
+        "time": 1742870400,
+        "price": 1601.43
+      },
+      {
+        "time": 1742870700,
+        "price": 1603.02
+      },
+      {
+        "time": 1742871000,
+        "price": 1604.07
+      },
+      {
+        "time": 1742871300,
+        "price": 1604.65
+      },
+      {
+        "time": 1742871600,
+        "price": 1604.25
+      },
+      {
+        "time": 1742871900,
+        "price": 1604.21
+      },
+      {
+        "time": 1742872200,
+        "price": 1605.12
+      },
+      {
+        "time": 1742872500,
+        "price": 1606.56
+      },
+      {
+        "time": 1742872800,
+        "price": 1606.77
+      },
+      {
+        "time": 1742873100,
+        "price": 1606.07
+      },
+      {
+        "time": 1742873400,
+        "price": 1605.38
+      },
+      {
+        "time": 1742878800,
+        "price": 1605.42
+      },
+      {
+        "time": 1742879100,
+        "price": 1604.98
+      },
+      {
+        "time": 1742879400,
+        "price": 1604.76
+      },
+      {
+        "time": 1742879700,
+        "price": 1605.81
+      },
+      {
+        "time": 1742880000,
+        "price": 1606.33
+      },
+      {
+        "time": 1742880300,
+        "price": 1606.3
+      },
+      {
+        "time": 1742880600,
+        "price": 1605.06
+      },
+      {
+        "time": 1742880900,
+        "price": 1604.74
+      },
+      {
+        "time": 1742881200,
+        "price": 1604.59
+      },
+      {
+        "time": 1742881500,
+        "price": 1604.29
+      },
+      {
+        "time": 1742881800,
+        "price": 1603.78
+      },
+      {
+        "time": 1742882100,
+        "price": 1603.27
+      },
+      {
+        "time": 1742882400,
+        "price": 1603.31
+      },
+      {
+        "time": 1742882700,
+        "price": 1604.29
+      },
+      {
+        "time": 1742883000,
+        "price": 1605.22
+      },
+      {
+        "time": 1742883300,
+        "price": 1605.21
+      },
+      {
+        "time": 1742883600,
+        "price": 1606.47
+      },
+      {
+        "time": 1742883900,
+        "price": 1606.91
+      },
+      {
+        "time": 1742884200,
+        "price": 1606.74
+      },
+      {
+        "time": 1742884500,
+        "price": 1606.92
+      },
+      {
+        "time": 1742884800,
+        "price": 1606.81
+      },
+      {
+        "time": 1742885100,
+        "price": 1607.22
+      },
+      {
+        "time": 1742885400,
+        "price": 1609.01
+      },
+      {
+        "time": 1742885700,
+        "price": 1609.25
+      },
+      {
+        "time": 1742886000,
+        "price": 1610.44
+      },
+      {
+        "time": 1742952600,
+        "price": 1606.01
+      },
+      {
+        "time": 1742952900,
+        "price": 1605.47
+      },
+      {
+        "time": 1742953200,
+        "price": 1606.86
+      },
+      {
+        "time": 1742953500,
+        "price": 1608.12
+      },
+      {
+        "time": 1742953800,
+        "price": 1608.91
+      },
+      {
+        "time": 1742954100,
+        "price": 1609.5
+      },
+      {
+        "time": 1742954400,
+        "price": 1609.29
+      },
+      {
+        "time": 1742954700,
+        "price": 1610.66
+      },
+      {
+        "time": 1742955000,
+        "price": 1612.04
+      },
+      {
+        "time": 1742955300,
+        "price": 1611.92
+      },
+      {
+        "time": 1742955600,
+        "price": 1611.95
+      },
+      {
+        "time": 1742955900,
+        "price": 1612.37
+      },
+      {
+        "time": 1742956200,
+        "price": 1612.4
+      },
+      {
+        "time": 1742956500,
+        "price": 1613.29
+      },
+      {
+        "time": 1742956800,
+        "price": 1613.01
+      },
+      {
+        "time": 1742957100,
+        "price": 1613.77
+      },
+      {
+        "time": 1742957400,
+        "price": 1615.23
+      },
+      {
+        "time": 1742957700,
+        "price": 1615.94
+      },
+      {
+        "time": 1742958000,
+        "price": 1615.96
+      },
+      {
+        "time": 1742958300,
+        "price": 1615.71
+      },
+      {
+        "time": 1742958600,
+        "price": 1615.84
+      },
+      {
+        "time": 1742958900,
+        "price": 1614.95
+      },
+      {
+        "time": 1742959200,
+        "price": 1614.26
+      },
+      {
+        "time": 1742959500,
+        "price": 1613.85
+      },
+      {
+        "time": 1742959800,
+        "price": 1614.03
+      },
+      {
+        "time": 1742965200,
+        "price": 1613.67
+      },
+      {
+        "time": 1742965500,
+        "price": 1613.08
+      },
+      {
+        "time": 1742965800,
+        "price": 1613.67
+      },
+      {
+        "time": 1742966100,
+        "price": 1614.23
+      },
+      {
+        "time": 1742966400,
+        "price": 1614.12
+      },
+      {
+        "time": 1742966700,
+        "price": 1613.85
+      },
+      {
+        "time": 1742967000,
+        "price": 1614.5
+      },
+      {
+        "time": 1742967300,
+        "price": 1615.26
+      },
+      {
+        "time": 1742967600,
+        "price": 1615.71
+      },
+      {
+        "time": 1742967900,
+        "price": 1615.6
+      },
+      {
+        "time": 1742968200,
+        "price": 1615.66
+      },
+      {
+        "time": 1742968500,
+        "price": 1615.93
+      },
+      {
+        "time": 1742968800,
+        "price": 1617.11
+      },
+      {
+        "time": 1742969100,
+        "price": 1618.23
+      },
+      {
+        "time": 1742969400,
+        "price": 1619.22
+      },
+      {
+        "time": 1742969700,
+        "price": 1620.36
+      },
+      {
+        "time": 1742970000,
+        "price": 1621.24
+      },
+      {
+        "time": 1742970300,
+        "price": 1622.72
+      },
+      {
+        "time": 1742970600,
+        "price": 1623.73
+      },
+      {
+        "time": 1742970900,
+        "price": 1624.22
+      },
+      {
+        "time": 1742971200,
+        "price": 1624.47
+      },
+      {
+        "time": 1742971500,
+        "price": 1625.14
+      },
+      {
+        "time": 1742971800,
+        "price": 1626.02
+      },
+      {
+        "time": 1742972100,
+        "price": 1627.21
+      },
+      {
+        "time": 1742972400,
+        "price": 1627.47
+      },
+      {
+        "time": 1743039000,
+        "price": 1622.39
+      },
+      {
+        "time": 1743039300,
+        "price": 1623.34
+      },
+      {
+        "time": 1743039600,
+        "price": 1623.35
+      },
+      {
+        "time": 1743039900,
+        "price": 1625.35
+      },
+      {
+        "time": 1743040200,
+        "price": 1625.65
+      },
+      {
+        "time": 1743040500,
+        "price": 1625.9
+      },
+      {
+        "time": 1743040800,
+        "price": 1627.86
+      },
+      {
+        "time": 1743041100,
+        "price": 1628.13
+      },
+      {
+        "time": 1743041400,
+        "price": 1630.16
+      },
+      {
+        "time": 1743041700,
+        "price": 1631.4
+      },
+      {
+        "time": 1743042000,
+        "price": 1632.08
+      },
+      {
+        "time": 1743042300,
+        "price": 1632.43
+      },
+      {
+        "time": 1743042600,
+        "price": 1632.86
+      },
+      {
+        "time": 1743042900,
+        "price": 1633.33
+      },
+      {
+        "time": 1743043200,
+        "price": 1633.16
+      },
+      {
+        "time": 1743043500,
+        "price": 1633.86
+      },
+      {
+        "time": 1743043800,
+        "price": 1634.26
+      },
+      {
+        "time": 1743044100,
+        "price": 1634.15
+      },
+      {
+        "time": 1743044400,
+        "price": 1634.93
+      },
+      {
+        "time": 1743044700,
+        "price": 1635.63
+      },
+      {
+        "time": 1743045000,
+        "price": 1636.28
+      },
+      {
+        "time": 1743045300,
+        "price": 1636.39
+      },
+      {
+        "time": 1743045600,
+        "price": 1636.29
+      },
+      {
+        "time": 1743045900,
+        "price": 1636.63
+      },
+      {
+        "time": 1743046200,
+        "price": 1636.26
+      },
+      {
+        "time": 1743051600,
+        "price": 1637.54
+      },
+      {
+        "time": 1743051900,
+        "price": 1638.56
+      },
+      {
+        "time": 1743052200,
+        "price": 1638.03
+      },
+      {
+        "time": 1743052500,
+        "price": 1637.83
+      },
+      {
+        "time": 1743052800,
+        "price": 1638.92
+      },
+      {
+        "time": 1743053100,
+        "price": 1639.83
+      },
+      {
+        "time": 1743053400,
+        "price": 1640.42
+      },
+      {
+        "time": 1743053700,
+        "price": 1641.76
+      },
+      {
+        "time": 1743054000,
+        "price": 1643.67
+      },
+      {
+        "time": 1743054300,
+        "price": 1645.09
+      },
+      {
+        "time": 1743054600,
+        "price": 1645.21
+      },
+      {
+        "time": 1743054900,
+        "price": 1647.36
+      },
+      {
+        "time": 1743055200,
+        "price": 1648.38
+      },
+      {
+        "time": 1743055500,
+        "price": 1649.07
+      },
+      {
+        "time": 1743055800,
+        "price": 1650.11
+      },
+      {
+        "time": 1743056100,
+        "price": 1651.68
+      },
+      {
+        "time": 1743056400,
+        "price": 1652.14
+      },
+      {
+        "time": 1743056700,
+        "price": 1653.9
+      },
+      {
+        "time": 1743057000,
+        "price": 1654.93
+      },
+      {
+        "time": 1743057300,
+        "price": 1656.12
+      },
+      {
+        "time": 1743057600,
+        "price": 1656.71
+      },
+      {
+        "time": 1743057900,
+        "price": 1656.21
+      },
+      {
+        "time": 1743058200,
+        "price": 1657.35
+      },
+      {
+        "time": 1743058500,
+        "price": 1656.92
+      },
+      {
+        "time": 1743058800,
+        "price": 1656.77
+      },
+      {
+        "time": 1743125400,
+        "price": 1657.76
+      },
+      {
+        "time": 1743125700,
+        "price": 1658.53
+      },
+      {
+        "time": 1743126000,
+        "price": 1659.83
+      },
+      {
+        "time": 1743126300,
+        "price": 1660.68
+      },
+      {
+        "time": 1743126600,
+        "price": 1663.02
+      },
+      {
+        "time": 1743126900,
+        "price": 1664.66
+      },
+      {
+        "time": 1743127200,
+        "price": 1665.22
+      },
+      {
+        "time": 1743127500,
+        "price": 1666.29
+      },
+      {
+        "time": 1743127800,
+        "price": 1666.53
+      },
+      {
+        "time": 1743128100,
+        "price": 1667.47
+      },
+      {
+        "time": 1743128400,
+        "price": 1668.31
+      },
+      {
+        "time": 1743128700,
+        "price": 1668.73
+      },
+      {
+        "time": 1743129000,
+        "price": 1669.59
+      },
+      {
+        "time": 1743129300,
+        "price": 1670.44
+      },
+      {
+        "time": 1743129600,
+        "price": 1669.98
+      },
+      {
+        "time": 1743129900,
+        "price": 1669.92
+      },
+      {
+        "time": 1743130200,
+        "price": 1669.57
+      },
+      {
+        "time": 1743130500,
+        "price": 1670.7
+      },
+      {
+        "time": 1743130800,
+        "price": 1672.17
+      },
+      {
+        "time": 1743131100,
+        "price": 1672.81
+      },
+      {
+        "time": 1743131400,
+        "price": 1673.93
+      },
+      {
+        "time": 1743131700,
+        "price": 1674.58
+      },
+      {
+        "time": 1743132000,
+        "price": 1675.66
+      },
+      {
+        "time": 1743132300,
+        "price": 1676.43
+      },
+      {
+        "time": 1743132600,
+        "price": 1677.28
+      },
+      {
+        "time": 1743138000,
+        "price": 1677.24
+      },
+      {
+        "time": 1743138300,
+        "price": 1677.98
+      },
+      {
+        "time": 1743138600,
+        "price": 1678.83
+      },
+      {
+        "time": 1743138900,
+        "price": 1679.39
+      },
+      {
+        "time": 1743139200,
+        "price": 1680.94
+      },
+      {
+        "time": 1743139500,
+        "price": 1683.01
+      },
+      {
+        "time": 1743139800,
+        "price": 1685.46
+      },
+      {
+        "time": 1743140100,
+        "price": 1686.57
+      },
+      {
+        "time": 1743140400,
+        "price": 1688.3
+      },
+      {
+        "time": 1743140700,
+        "price": 1689.17
+      },
+      {
+        "time": 1743141000,
+        "price": 1691.24
+      },
+      {
+        "time": 1743141300,
+        "price": 1691.16
+      },
+      {
+        "time": 1743141600,
+        "price": 1691.45
+      },
+      {
+        "time": 1743141900,
+        "price": 1692.75
+      },
+      {
+        "time": 1743142200,
+        "price": 1693.73
+      },
+      {
+        "time": 1743142500,
+        "price": 1695.49
+      },
+      {
+        "time": 1743142800,
+        "price": 1695.73
+      },
+      {
+        "time": 1743143100,
+        "price": 1696.28
+      },
+      {
+        "time": 1743143400,
+        "price": 1695.79
+      },
+      {
+        "time": 1743143700,
+        "price": 1696.02
+      },
+      {
+        "time": 1743144000,
+        "price": 1695.67
+      },
+      {
+        "time": 1743144300,
+        "price": 1696.62
+      },
+      {
+        "time": 1743144600,
+        "price": 1697.32
+      },
+      {
+        "time": 1743144900,
+        "price": 1698.48
+      },
+      {
+        "time": 1743145200,
+        "price": 1699.22
+      }
+    ]
+  }
+}

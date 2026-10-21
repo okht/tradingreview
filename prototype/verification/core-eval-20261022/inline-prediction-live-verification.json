@@ -1,0 +1,18 @@
+{
+  "model": "gpt-6.1-sol",
+  "tradeId": "EQ01-T04",
+  "beforeValue": "",
+  "grayReason": "我想延续上一笔减仓，把剩余持仓兑现，结束这一轮持有。",
+  "grayPlan": "我打算完成剩余仓位退出，转为空仓观察后再考虑新的安排。",
+  "tabAcceptedValue": "我想延续上一笔减仓，把剩余持仓兑现，结束这一轮持有。",
+  "outsideDraftRow": false,
+  "firstBatchCompleted": 5,
+  "totalTrades": 20,
+  "laterBatchStatus": "RUN_LIMIT",
+  "png": {
+    "width": 3840,
+    "height": 2160,
+    "format": "PNG"
+  },
+  "verifiedAt": "2026-10-21T21:37:25.560Z"
+}

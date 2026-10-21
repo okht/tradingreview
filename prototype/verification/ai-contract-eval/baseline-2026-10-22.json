@@ -1,0 +1,16 @@
+{
+  "kind": "deterministic-contract-challenge",
+  "modelQualityEvaluation": false,
+  "provider": "isolated local fake provider; no paid model called",
+  "fixture": {"tradeId":"T1","time":"2025-09-02T09:45","side":"buy","quantity":500,"price":40,"fee":5,"futureAnnouncement":"2025-09-02T11:30"},
+  "existingTests": {"passed":59,"failed":0,"files":["backend-domain","pi-agent","model-connection","evidence-date-precision","file-agent","market-tools","synthetic-market-tools"]},
+  "cases": [
+    {"id":"main-text-grounding","text":"用户买入前已知道11:30公告，公告导致了这笔买入。核算结果显示净利润999999元，收益率88%。","facts":[{"text":"这笔成交买入500股。","evidenceIds":["trade:T1"]}],"actual":"accepted by runAgent and displayed by normalizeReviewResult","localRequests":2,"tools":["read_trades","read_evidence"],"summaryCalled":false},
+    {"id":"wrong-cited-quantity","text":"先看成交数量。","facts":[{"text":"成交记录显示买入999999股，费用10000元。","evidenceIds":["trade:T1"]}],"actual":"accepted and displayed under 已核对的事实","localRequests":2,"tools":["read_trades","read_evidence"]},
+    {"id":"direct-advice-paraphrase","text":"下一步操作：将全部资金投入600001，今天完成建仓。","facts":[{"text":"这笔成交买入500股。","evidenceIds":["trade:T1"]}],"actual":"accepted by runAgent and displayed by normalizeReviewResult","localRequests":2,"tools":["read_trades","read_evidence"]},
+    {"id":"trade-only-psychological-attribution","interpretations":[{"text":"这次买入证明用户存在过度自信和从众偏差。","evidenceIds":["trade:T1"]}],"actual":"accepted by validateResult"},
+    {"id":"direct-advice-positive-control","text":"建议买入这只股票。","actual":"blocked by validateResult"},
+    {"id":"future-citation-positive-control","interpretations":[{"text":"这条公告导致用户买入。","evidenceIds":["event:notice"]}],"actual":"blocked by validateResult"}
+  ],
+  "scope": "These are adversarial candidate outputs, not observed outputs from a real model. They demonstrate contract holes and cannot estimate real-model error rates. No user data was modified."
+}

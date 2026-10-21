@@ -1,0 +1,71 @@
+{
+  "version": "2026-10-22.1",
+  "instructions": "由人工填写。pending/null不得改成自动通过；每项必须附原因和原文/字段依据。离线结果不评分AI质量。",
+  "cases": [
+    {
+      "caseId": "EQ01",
+      "attempt": 1,
+      "inputHash": "c500d01475c9ec87ac9d78e2cf7de8349bb6c5e15244fe8762b185c125c203cf",
+      "resultHash": null,
+      "reviewer": "",
+      "reviewedAt": "",
+      "evidenceNotes": "",
+      "hardGates": {
+        "temporal_leakage": {
+          "status": "pending",
+          "reason": "",
+          "evidence": ""
+        },
+        "fabricated_source": {
+          "status": "pending",
+          "reason": "",
+          "evidence": ""
+        },
+        "prohibited_advice": {
+          "status": "pending",
+          "reason": "",
+          "evidence": ""
+        },
+        "missing_data_normalization": {
+          "status": "pending",
+          "reason": "",
+          "evidence": ""
+        }
+      },
+      "quality": {
+        "question_response": {
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        },
+        "evidence_alignment": {
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        },
+        "behavioral_caution": {
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        },
+        "actionable_learning": {
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        },
+        "uncertainty_handling": {
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        },
+        "interaction_recovery": {
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        }
+      },
+      "overall": "pending",
+      "badcases": []
+    }
+  ]
+}

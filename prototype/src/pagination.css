@@ -1,0 +1,14 @@
+.hk-pagination { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px 20px; padding: 16px 0 4px; color: var(--ink); font-size: 12px; font-variant-numeric: tabular-nums; }
+.hk-pagination-count { color: var(--ink-tertiary); white-space: nowrap; }
+.hk-pagination-controls, .hk-pagination-pages { display: flex; align-items: center; }
+.hk-pagination-controls { gap: 20px; margin-left: auto; }
+.hk-pagination-pages { gap: 8px; }
+.hk-pagination .hk-page, .hk-page-gap { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; width: 32px; min-width: 32px; height: 32px; min-height: 0; padding: 0; margin: 0; border: 0; border-radius: 50%; background: transparent; color: var(--ink); font: inherit; font-size: 13px; line-height: 1; text-decoration: none; box-shadow: none; }
+.hk-pagination .hk-page { cursor: pointer; }
+.hk-pagination .hk-page:hover:not(:disabled):not([aria-current]) { background: var(--surface-hover); }
+.hk-pagination .hk-page[aria-current="page"] { background: var(--ink); color: var(--text-inverse); }
+.hk-pagination .hk-page:disabled { color: var(--text-disabled); cursor: default; }
+.hk-pagination .hk-page[aria-current="page"]:disabled { color: var(--text-disabled); background: var(--control-disabled-background); opacity: 1; }
+.hk-pagination .hk-page:focus-visible { outline: 2px solid var(--ink-tertiary); outline-offset: 3px; }
+.hk-page-gap { color: var(--ink-tertiary); }
+@media (max-width: 560px) { .hk-pagination { gap: 12px; } .hk-pagination-pages { gap: 2px; } .hk-pagination .hk-page, .hk-page-gap { width: 28px; min-width: 28px; height: 28px; } }

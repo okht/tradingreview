@@ -1,0 +1,26 @@
+{
+  "title": "贵州茅台经典复盘案例",
+  "fixture": "EQ01-600519.SH-trend",
+  "dataKind": "真实标的身份；模拟成交、行情和用户背景",
+  "tradeCount": 20,
+  "baseInterval": "15m",
+  "recordedAiModel": "gpt-6.1-sol",
+  "recordedAiRunIds": [
+    "02abff02-1c25-43d8-ba48-64ea8a986b7f",
+    "55f61151-a06b-4080-ae06-6ea0b1c01b9e"
+  ],
+  "source": "core-eval-20261022/core-results.json（实际模型运行留存）",
+  "messages": 4,
+  "savedMethods": 2,
+  "savedChecklists": 1,
+  "modelConnection": null,
+  "sha256": "c4e857f29e9d168d57bf5d293767ff3231197dc824419536fd08d674bcf53c71",
+  "transformations": [
+    "仅保留已完成的检查项问答与修复后全 20 笔复盘问答；文本及证据快照原样保留",
+    "移除重复会话、未完成请求、草稿和模型连接状态",
+    "保留原会话、方法、检查项来源标识与已完成回测，供重新计算",
+    "材料恢复为两段真实 AI 运行共同使用的 context 快照及 revision=4，排除后续灰字交互演示才加入的 EQ01-T04 背景"
+  ],
+  "materialSnapshotRunId": "55f61151-a06b-4080-ae06-6ea0b1c01b9e",
+  "materialRevision": 4
+}

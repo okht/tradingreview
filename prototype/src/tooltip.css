@@ -1,0 +1,26 @@
+.hk-tooltip {
+  z-index: 10000;
+  max-width: min(280px, calc(100vw - 24px));
+  padding: 8px 12px;
+  border: 1px solid var(--border-inverse);
+  border-radius: 10px;
+  background: var(--ink);
+  color: var(--text-inverse);
+  box-shadow: 0 2px 8px var(--shadow-color);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  overflow-wrap: anywhere;
+  user-select: none;
+  animation: hk-tooltip-in 120ms ease-out;
+}
+
+@keyframes hk-tooltip-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hk-tooltip { animation: none; }
+}

@@ -1,0 +1,52 @@
+{
+  "activeId": "f96a6399-5904-494c-b691-7ab8f6146497",
+  "tradeCount": 20,
+  "methods": [
+    {
+      "id": "method-16j5g8x",
+      "title": "跟随均线方向",
+      "rules": {
+        "kind": "trend",
+        "lookback": 5,
+        "entryDeviationPct": 0.5,
+        "exitDeviationPct": 0,
+        "allocationPct": 80,
+        "stopLossPct": null,
+        "takeProfitPct": null,
+        "maxHoldBars": null
+      }
+    },
+    {
+      "id": "method-16j5g8x-v2-55l18q",
+      "title": "跟随均线方向（风险约束版）",
+      "rules": {
+        "kind": "trend",
+        "lookback": 5,
+        "entryDeviationPct": 0.5,
+        "exitDeviationPct": 0,
+        "allocationPct": 50,
+        "stopLossPct": 8,
+        "takeProfitPct": null,
+        "maxHoldBars": 20
+      }
+    }
+  ],
+  "savedItems": [
+    {
+      "id": "2026f9e6-0281-4056-8bd0-9992715576e7",
+      "title": "分批交易前核对预算",
+      "trigger": "每次按分批计划建立仓位或追加买入前。",
+      "action": "核对已投入金额、本批拟投入金额、预留费用与总预算；记录核对结果，确认累计投入未超预算后再继续。",
+      "exception": "预算或分批安排不明确时，标记为待补充；需要调整计划时先记录原因，再重新核对。"
+    }
+  ],
+  "hashes": {
+    "trades": "5ef8f025d074b1053396ca7da336f4e52135a2de2ddaadac1f1336d8ff9752b9",
+    "contexts": "cd0e622a287d6ce08a412fa0fa3bbbf0ee58c95feddc2f35de51e3b56e41b060",
+    "evidence": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "messages": "16ac5cf254684bc8f9d2055f895bb1d1ee37c4f891db8a3d98f641d1f126d7c6",
+    "research": "a73af56286ece260437f5537837a37fe957d96e9f1779d534292332a326a9a8a"
+  },
+  "methodsHash": "7d6cd0c96e9baf503f8fab61aa103d124e0d656589f469ffc71f070e0a411414",
+  "savedItemsHash": "0e660eaae7c85f37cf0490639d38efde20d6310fe11a119645f2d5c15e8df04a"
+}

@@ -1,0 +1,54 @@
+{
+  "phase": "seed",
+  "passed": true,
+  "observedAt": "2026-10-21T09:26:55.955Z",
+  "observations": [
+    {
+      "check": "anonymous API requires authentication",
+      "status": 401
+    },
+    {
+      "check": "explicit local gateway test header reaches Worker",
+      "status": 200
+    },
+    {
+      "check": "cross-origin requests rejected",
+      "status": 403
+    },
+    {
+      "check": "new Alice workspace",
+      "status": 200
+    },
+    {
+      "check": "new Bob workspace",
+      "status": 200
+    },
+    {
+      "check": "initial Alice commit",
+      "status": 200
+    },
+    {
+      "check": "simultaneous same-revision writes",
+      "statuses": [
+        200,
+        409
+      ]
+    },
+    {
+      "check": "read committed winner",
+      "status": 200
+    },
+    {
+      "check": "stale revision rejected",
+      "status": 409
+    },
+    {
+      "check": "invalid state rejected without replacement",
+      "status": 400
+    },
+    {
+      "check": "Bob writes an independent workspace",
+      "status": 200
+    }
+  ]
+}

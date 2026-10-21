@@ -1,0 +1,24 @@
+{
+  "mode": "offline",
+  "model": null,
+  "baseUrl": null,
+  "manifestHash": "42c3790e78ffb6887981c63321d24ea3f214fb72e37fde934af9646e3e486b60",
+  "codeFingerprint": "ecf5512770adbdcbba2ee323ed9a182fdbf2402ec75baa2a1f23b330b4736db8",
+  "serverVersion": "unknown",
+  "baselineNoMarket": false,
+  "questionIndex": 0,
+  "selectedIds": [
+    "EQ01"
+  ],
+  "version": 1,
+  "startedAt": "2026-10-21T20:51:23.019Z",
+  "updatedAt": "2026-10-21T20:51:24.194Z",
+  "sourceManifest": "evaluation\\fixtures\\equity-50\\manifest.json",
+  "selectedCount": 1,
+  "provider": null,
+  "authentication": null,
+  "credentialsRead": false,
+  "financialNetworkEnabled": false,
+  "thresholdsAreTargets": true,
+  "finishedAt": "2026-10-21T20:51:24.194Z"
+}

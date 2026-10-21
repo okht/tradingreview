@@ -1,0 +1,9 @@
+fancy-canvas 2.1.0
+License: MIT
+Dependency of lightweight-charts@5.2.1.
+The installed npm package does not include a LICENSE file.
+LICENSE.txt downloaded verbatim from its official upstream 2.1.0 tag commit:
+https://github.com/tradingview/fancy-canvas/blob/7ece7601f05b624496f485cee65789ad691427df/LICENSE
+Tag: 2.1.0
+Commit: 7ece7601f05b624496f485cee65789ad691427df
+Verified: 2026-10-21

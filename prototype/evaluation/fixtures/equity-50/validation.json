@@ -1,0 +1,30 @@
+{
+  "version": "equity-50-v1",
+  "datasetHash": "6df7e48982a7b09ade8c5fdbe467b6395755572e7cf373ec6530a5a8bc63809d",
+  "passedCases": 50,
+  "checksPerCase": [
+    "contract",
+    "importer",
+    "csv",
+    "count20to40",
+    "tradingCalendar",
+    "executionPrice",
+    "fees",
+    "inventory",
+    "tPlusOne",
+    "sufficientInitialCash",
+    "independentInformationTime",
+    "syntheticLabels",
+    "candles15m",
+    "oracleMatchesProduct",
+    "futurePerturbationInvariant"
+  ],
+  "totals": {
+    "trades": 1500,
+    "pricePoints": 50000,
+    "candles15m": 16000,
+    "questions": 400
+  },
+  "identitySourceStatus": "official sources manually verified 2026-10-22",
+  "generatedPricesAndBehavior": true
+}

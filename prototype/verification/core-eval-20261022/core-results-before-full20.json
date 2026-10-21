@@ -1,0 +1,947 @@
+{
+  "capturedAt": "2026-10-21T20:45:17.377Z",
+  "fixture": "EQ01-600519.SH-trend",
+  "conversationId": "f96a6399-5904-494c-b691-7ab8f6146497",
+  "tradeCount": 20,
+  "runs": [
+    {
+      "id": "4c8bc8ba-254f-4c98-9bba-681663602cbb",
+      "createdAt": "2026-10-21T20:23:04.131Z",
+      "model": {
+        "provider": "openai",
+        "id": "gpt-6.1-sol"
+      },
+      "question": "这是一组模拟交易，真实部分仅为股票身份。请只核对 EQ01-T01 至 EQ01-T04 的净盈亏和费用，区分事实、解释与资料缺口。首笔背景是现在回忆，其余理由记不清。再根据已填写的预算与分批计划，提出一条可编辑的交易前检查项，包含触发条件、检查动作和例外；不要直接保存。\n\n核对原则：当前工具中的已确认成交优先于历史交易候选。历史用户消息是用户补充和现在回忆，可能属于此前材料，请核对当前范围；存在冲突先提问，不将旧回答视为本次已证实事实。",
+      "result": {
+        "text": "已按当前已确认的 EQ01-T01 至 EQ01-T04 核对：该模拟交易周期已清仓，净盈亏为盈利 13,255.30 元，费用合计 468.70 元。以下将成交事实、解释和资料缺口分开；检查项仅为可编辑草稿，未保存。",
+        "facts": [
+          {
+            "text": "本次核算仅包含四笔已确认模拟成交：累计买入金额 449,287.00 元，累计卖出金额 463,011.00 元，期末持仓为 0。确定性核算工具将其识别为完整的空仓至清仓周期，无缺失项。",
+            "evidenceIds": [
+              "trade:EQ01-T01",
+              "trade:EQ01-T02",
+              "trade:EQ01-T03",
+              "trade:EQ01-T04"
+            ]
+          },
+          {
+            "text": "逐笔费用为：EQ01-T01 77.42 元、EQ01-T02 39.39 元、EQ01-T03 116.09 元、EQ01-T04 235.80 元；合计 468.70 元。工具按逐笔成交金额及费用四舍五入至分，净盈亏按卖出额减买入额再减全部费用计算，结果为 +13,255.30 元；该口径不含分红、拆股或汇率影响。",
+            "evidenceIds": [
+              "trade:EQ01-T01",
+              "trade:EQ01-T02",
+              "trade:EQ01-T03",
+              "trade:EQ01-T04"
+            ]
+          },
+          {
+            "text": "首笔背景材料记载了“分两天建立仓位，核对预算后继续；退出时分批执行”，但来源明确为用户现在的模拟回忆、经用户确认的 AI 辅助草稿，不是当时记录。",
+            "evidenceIds": [
+              "background:EQ01-T01"
+            ]
+          },
+          {
+            "text": "已读取首笔成交对应的合成测试行情：interval 为 15m；首笔成交时没有此前已完整的窗口，当前根仅含截至 2025-03-03 09:40 的已知合成观测。本次未读取决策后的行情，也不将这些合成数据表述为真实市场事实。",
+            "evidenceIds": [
+              "market:EQ01-T01:current"
+            ]
+          }
+        ],
+        "interpretations": [
+          {
+            "text": "两天分别买入、随后分两笔卖出的成交行为，与现在回忆中的分批安排在形式上相符；这不能证明成交当时已有该计划、实际核对过预算，或各笔成交是由该计划驱动，也不能把盈利归因于分批安排。",
+            "evidenceIds": [
+              "background:EQ01-T01",
+              "trade:EQ01-T01",
+              "trade:EQ01-T02",
+              "trade:EQ01-T03",
+              "trade:EQ01-T04"
+            ]
+          }
+        ],
+        "uncertainties": [
+          "你已明确其余理由记不清，本次按这一陈述继续核算，不视为尚未填写，也不补造理由。",
+          "当前证据只有“核对预算”的文字，没有预算金额、各批上限、费用预留或当时核对记录，因此不能判断是否遵守预算。",
+          "分批安排属于现在回忆；缺少成交前形成的原始计划，无法核验当时的具体触发条件、退出标准和例外。",
+          "费用字段已完整计入净盈亏，但未提供佣金、税费等明细，不能进一步核验各费用组成或费率。",
+          "read_market 返回了 interval=15m，但未返回独立的 reviewInterval 字段；本次仅按已明确的 15 分钟合成窗口理解资料，不推定为 4 小时周期。"
+        ],
+        "suggestions": [
+          "可编辑的交易前检查项草稿（非买卖指令，未保存）：触发条件——每次准备执行分批计划中的下一批前；检查动作——填写总预算、已用金额、本批预计金额和费用预留，核对本批后累计占用是否仍在预算内，并记录对应批次；预算或批次信息不足时先标记“待核对”，不记为检查通过；例外——确需调整预算或批次时，先单独写明调整原因、新上限与时间，不将事后补记冒充事前计划。代价是增加记录时间，但能让预算执行情况在以后被核验。",
+          "我愿意补充的预算总额、各批金额或数量上限，以及费用预留分别是多少？如果现在也记不清，可以明确保留为未知。"
+        ],
+        "learning": null,
+        "evidenceIds": [
+          "trade:EQ01-T01",
+          "trade:EQ01-T02",
+          "trade:EQ01-T03",
+          "trade:EQ01-T04",
+          "background:EQ01-T01",
+          "market:EQ01-T01:current"
+        ],
+        "textEvidenceIds": [
+          "trade:EQ01-T01",
+          "trade:EQ01-T02",
+          "trade:EQ01-T03",
+          "trade:EQ01-T04"
+        ],
+        "researchIntent": null,
+        "fetchedEvidence": [],
+        "retrievalStatus": "本次使用合成交易情境，自动取证仅核对资料包内证据；真实公司新闻不能证明模拟决策依据。",
+        "evidence": [
+          {
+            "id": "trade:EQ01-T01",
+            "tradeId": "EQ01-T01",
+            "type": "trade",
+            "title": "成交记录",
+            "text": "贵州茅台（600519.SH）在 2025-03-03 09:40 买入 200 股；成交价 1488.89 元；费用 77.42 元。",
+            "source": "bundle.json",
+            "publishedAt": "2025-03-03T09:40",
+            "recordedAt": null,
+            "timeClass": "before"
+          },
+          {
+            "id": "background:EQ01-T01",
+            "tradeId": "EQ01-T01",
+            "type": "background",
+            "title": "用户提供的决策背景",
+            "text": "理由：【模拟回忆】当时按预先的分批计划建立仓位，先核对预算，再继续买入。。计划：【模拟回忆】分两天建立仓位，核对预算后继续；退出时分批执行。。出处：AI辅助草稿，经用户确认；不等同当时记录。",
+            "source": "用户现在回忆，未经原始记录验证",
+            "publishedAt": null,
+            "recordedAt": "2026-10-21T19:52:50.797Z",
+            "timeClass": "recollection"
+          },
+          {
+            "id": "market:EQ01-T01:current",
+            "tradeId": "EQ01-T01",
+            "type": "market",
+            "synthetic": true,
+            "title": "当根截至决策时点的合成价格状态",
+            "text": "截至 2025-03-03T09:40:00+08:00 的合成测试观测：当前根开盘 1487.88 元，已知最高 1488.89 元，已知最低 1487.88 元，当前价格 1488.89 元。尚未包含后续观测；真实盘中状态不能由这些合成数据证明。",
+            "source": "用户导入的合成行情",
+            "publishedAt": "2025-03-03T09:40:00+08:00",
+            "recordedAt": null,
+            "timeClass": "before",
+            "marketState": "synthetic-current",
+            "cutoff": "2025-03-03T09:40"
+          },
+          {
+            "id": "trade:EQ01-T02",
+            "tradeId": "EQ01-T02",
+            "type": "trade",
+            "title": "成交记录",
+            "text": "贵州茅台（600519.SH）在 2025-03-04 10:35 买入 100 股；成交价 1515.09 元；费用 39.39 元。",
+            "source": "bundle.json",
+            "publishedAt": "2025-03-04T10:35",
+            "recordedAt": null,
+            "timeClass": "before"
+          },
+          {
+            "id": "trade:EQ01-T03",
+            "tradeId": "EQ01-T03",
+            "type": "trade",
+            "title": "成交记录",
+            "text": "贵州茅台（600519.SH）在 2025-03-05 13:20 卖出 100 股；成交价 1527.51 元；费用 116.09 元。",
+            "source": "bundle.json",
+            "publishedAt": "2025-03-05T13:20",
+            "recordedAt": null,
+            "timeClass": "before"
+          },
+          {
+            "id": "trade:EQ01-T04",
+            "tradeId": "EQ01-T04",
+            "type": "trade",
+            "title": "成交记录",
+            "text": "贵州茅台（600519.SH）在 2025-03-06 14:40 卖出 200 股；成交价 1551.3 元；费用 235.8 元。",
+            "source": "bundle.json",
+            "publishedAt": "2025-03-06T14:40",
+            "recordedAt": null,
+            "timeClass": "before"
+          }
+        ]
+      }
+    },
+    {
+      "id": "02abff02-1c25-43d8-ba48-64ea8a986b7f",
+      "createdAt": "2026-10-21T20:43:39.038Z",
+      "model": {
+        "provider": "openai",
+        "id": "gpt-6.1-sol"
+      },
+      "question": "把「分批交易前核对预算」整理成一条可编辑的检查项，包含触发条件、检查动作和例外，供我下一次交易前使用。\n\n核对原则：当前工具中的已确认成交优先于历史交易候选。历史用户消息是用户补充和现在回忆，可能属于此前材料，请核对当前范围；存在冲突先提问，不将旧回答视为本次已证实事实。",
+      "result": {
+        "text": "这条检查项仅依据你现在的模拟回忆整理，供下一次交易前编辑使用，不代表当时已经执行；仅凭用户回忆无法证明当时严格执行了计划。以下为草稿，未保存。",
+        "facts": [
+          {
+            "text": "用户自述的模拟回忆包括“分两天建立仓位，核对预算后继续；退出时分批执行”。材料来源为经用户确认的 AI 辅助草稿，不是当时的原始记录。",
+            "evidenceIds": [
+              "background:EQ01-T01"
+            ]
+          }
+        ],
+        "interpretations": [],
+        "uncertainties": [
+          "仅凭用户回忆无法证明当时严格执行了计划，也无法确认当时是否核对过预算。",
+          "已读取的背景材料未提供预算金额、每批额度或例外条件；以下检查项不补充这些参数，例外处理属于供用户编辑的流程建议。"
+        ],
+        "suggestions": [
+          "请把检查项中的例外处理改为：……"
+        ],
+        "learning": {
+          "title": "分批交易前核对预算（可编辑草稿，未保存）",
+          "trigger": "下一次拟按分批计划建立或增加仓位前触发。本项仅根据用户现在的模拟回忆拟定；仅凭用户回忆无法证明当时严格执行了计划。",
+          "action": "对照自己填写的预算与分批计划，核对已投入金额、本批拟投入金额及本批之后的累计投入是否符合预算，并记录核对结果。预算或分批安排缺失时，将检查结果标记为“待补充”，不视为已通过。该动作是面向下一次的流程建议，不是对历史执行情况的认定。",
+          "exception": "原回忆未提供例外条件，草稿暂不设置自动豁免。如需调整预算或分批安排，建议先记录调整内容与原因，再依据更新后的计划重新核对；此处理方式为新增的可编辑建议，不声称是原有计划。",
+          "evidenceIds": [
+            "background:EQ01-T01"
+          ]
+        },
+        "evidenceIds": [
+          "background:EQ01-T01"
+        ],
+        "textEvidenceIds": [
+          "background:EQ01-T01"
+        ],
+        "researchIntent": null,
+        "fetchedEvidence": [],
+        "retrievalStatus": "本次使用合成交易情境，自动取证仅核对资料包内证据；真实公司新闻不能证明模拟决策依据。",
+        "evidence": [
+          {
+            "id": "background:EQ01-T01",
+            "tradeId": "EQ01-T01",
+            "type": "background",
+            "title": "用户提供的决策背景",
+            "text": "理由：【模拟回忆】当时按预先的分批计划建立仓位，先核对预算，再继续买入。。计划：【模拟回忆】分两天建立仓位，核对预算后继续；退出时分批执行。。出处：AI辅助草稿，经用户确认；不等同当时记录。",
+            "source": "用户现在回忆，未经原始记录验证",
+            "publishedAt": null,
+            "recordedAt": "2026-10-21T19:52:50.797Z",
+            "timeClass": "recollection"
+          }
+        ]
+      }
+    }
+  ],
+  "methods": [
+    {
+      "id": "method-16j5g8x",
+      "title": "跟随均线方向",
+      "version": 1,
+      "parentId": null,
+      "origin": "inferred",
+      "status": "candidate",
+      "rules": {
+        "kind": "trend",
+        "lookback": 5,
+        "entryDeviationPct": 0.5,
+        "exitDeviationPct": 0,
+        "allocationPct": 80,
+        "stopLossPct": null,
+        "takeProfitPct": null,
+        "maxHoldBars": null
+      },
+      "derivation": {
+        "symbol": "600519.SH",
+        "from": "2025-03-03T09:40",
+        "to": "2025-03-28T14:40",
+        "tradeIds": [
+          "EQ01-T01",
+          "EQ01-T02",
+          "EQ01-T03",
+          "EQ01-T04",
+          "EQ01-T05",
+          "EQ01-T06",
+          "EQ01-T07",
+          "EQ01-T08",
+          "EQ01-T09",
+          "EQ01-T10",
+          "EQ01-T11",
+          "EQ01-T12",
+          "EQ01-T13",
+          "EQ01-T14",
+          "EQ01-T15",
+          "EQ01-T16",
+          "EQ01-T17",
+          "EQ01-T18",
+          "EQ01-T19",
+          "EQ01-T20"
+        ]
+      },
+      "description": "已完成的 K 线收盘价高于 5 根均价 0.5% 时提出买入信号，低于均价时提出卖出信号。",
+      "rulesSummary": [
+        "以最近 5 根完整 K 线均价为基准，高于均价 0.5% 时产生买入信号",
+        "低于均价 0% 时产生卖出信号",
+        "单次投入不超过初始资金的 80%，不叠加持仓",
+        "信号形成后的下一可用开盘执行，卖出遵守 T+1"
+      ],
+      "analysis": {
+        "supportedTradeIds": [
+          "EQ01-T05",
+          "EQ01-T06",
+          "EQ01-T09",
+          "EQ01-T10",
+          "EQ01-T13",
+          "EQ01-T14",
+          "EQ01-T17",
+          "EQ01-T18"
+        ],
+        "counterexampleTradeIds": [
+          "EQ01-T03",
+          "EQ01-T04",
+          "EQ01-T07",
+          "EQ01-T08",
+          "EQ01-T11",
+          "EQ01-T12",
+          "EQ01-T15",
+          "EQ01-T16",
+          "EQ01-T19",
+          "EQ01-T20"
+        ],
+        "unassessableTradeIds": [
+          "EQ01-T01",
+          "EQ01-T02"
+        ],
+        "agreementPct": 44.44,
+        "nonTradeSignalCount": 24,
+        "nonTradeSignals": [
+          {
+            "time": "2025-03-05T05:00:00.000Z",
+            "side": "buy",
+            "deviationPct": 0.773674
+          },
+          {
+            "time": "2025-03-06T05:00:00.000Z",
+            "side": "buy",
+            "deviationPct": 1.000342
+          },
+          {
+            "time": "2025-03-07T05:00:00.000Z",
+            "side": "buy",
+            "deviationPct": 1.724274
+          },
+          {
+            "time": "2025-03-10T05:00:00.000Z",
+            "side": "buy",
+            "deviationPct": 1.042618
+          },
+          {
+            "time": "2025-03-11T01:30:00.000Z",
+            "side": "buy",
+            "deviationPct": 0.75462
+          },
+          {
+            "time": "2025-03-12T01:30:00.000Z",
+            "side": "buy",
+            "deviationPct": 0.634024
+          },
+          {
+            "time": "2025-03-12T05:00:00.000Z",
+            "side": "buy",
+            "deviationPct": 0.925914
+          },
+          {
+            "time": "2025-03-13T05:00:00.000Z",
+            "side": "buy",
+            "deviationPct": 1.73514
+          },
+          {
+            "time": "2025-03-14T05:00:00.000Z",
+            "side": "buy",
+            "deviationPct": 1.37507
+          },
+          {
+            "time": "2025-03-17T01:30:00.000Z",
+            "side": "buy",
+            "deviationPct": 0.762692
+          },
+          {
+            "time": "2025-03-17T05:00:00.000Z",
+            "side": "buy",
+            "deviationPct": 0.69436
+          },
+          {
+            "time": "2025-03-18T01:30:00.000Z",
+            "side": "buy",
+            "deviationPct": 0.739902
+          },
+          {
+            "time": "2025-03-18T05:00:00.000Z",
+            "side": "buy",
+            "deviationPct": 0.925973
+          },
+          {
+            "time": "2025-03-19T05:00:00.000Z",
+            "side": "buy",
+            "deviationPct": 1.461655
+          },
+          {
+            "time": "2025-03-20T05:00:00.000Z",
+            "side": "buy",
+            "deviationPct": 0.977482
+          },
+          {
+            "time": "2025-03-21T01:30:00.000Z",
+            "side": "buy",
+            "deviationPct": 0.55042
+          },
+          {
+            "time": "2025-03-21T05:00:00.000Z",
+            "side": "buy",
+            "deviationPct": 0.605013
+          },
+          {
+            "time": "2025-03-24T01:30:00.000Z",
+            "side": "buy",
+            "deviationPct": 0.668581
+          },
+          {
+            "time": "2025-03-24T05:00:00.000Z",
+            "side": "buy",
+            "deviationPct": 1.372918
+          },
+          {
+            "time": "2025-03-25T05:00:00.000Z",
+            "side": "buy",
+            "deviationPct": 1.782235
+          },
+          {
+            "time": "2025-03-26T05:00:00.000Z",
+            "side": "buy",
+            "deviationPct": 0.988746
+          },
+          {
+            "time": "2025-03-27T01:30:00.000Z",
+            "side": "buy",
+            "deviationPct": 0.823462
+          },
+          {
+            "time": "2025-03-28T01:30:00.000Z",
+            "side": "buy",
+            "deviationPct": 0.739928
+          },
+          {
+            "time": "2025-03-28T05:00:00.000Z",
+            "side": "buy",
+            "deviationPct": 1.025794
+          }
+        ],
+        "scope": "仅衡量已有行情特征与成交方向的相符程度；仓位、主观动机及完整候选标的集合未知。",
+        "limitations": [
+          "同一成交可能符合多种规则，不能据此还原真实意图。",
+          "未成交信号只表示当前账户记录未出现对应成交，不证明用户当时观察过该机会。",
+          "参数采用固定候选值，未按历史收益择优。"
+        ]
+      }
+    },
+    {
+      "id": "method-16j5g8x-v2-55l18q",
+      "title": "跟随均线方向（风险约束版）",
+      "version": 2,
+      "parentId": "method-16j5g8x",
+      "origin": "improved",
+      "status": "candidate",
+      "rules": {
+        "kind": "trend",
+        "lookback": 5,
+        "entryDeviationPct": 0.5,
+        "exitDeviationPct": 0,
+        "allocationPct": 50,
+        "stopLossPct": 8,
+        "takeProfitPct": null,
+        "maxHoldBars": 20
+      },
+      "derivation": {
+        "symbol": "600519.SH",
+        "from": "2025-03-03T09:40",
+        "to": "2025-03-28T14:40",
+        "tradeIds": [
+          "EQ01-T01",
+          "EQ01-T02",
+          "EQ01-T03",
+          "EQ01-T04",
+          "EQ01-T05",
+          "EQ01-T06",
+          "EQ01-T07",
+          "EQ01-T08",
+          "EQ01-T09",
+          "EQ01-T10",
+          "EQ01-T11",
+          "EQ01-T12",
+          "EQ01-T13",
+          "EQ01-T14",
+          "EQ01-T15",
+          "EQ01-T16",
+          "EQ01-T17",
+          "EQ01-T18",
+          "EQ01-T19",
+          "EQ01-T20"
+        ]
+      },
+      "description": "限制单次投入不超过 50%；补充 8% 收盘确认止损；补充 20 根 K 线持有期限",
+      "rulesSummary": [
+        "以最近 5 根完整 K 线均价为基准，高于均价 0.5% 时产生买入信号",
+        "低于均价 0% 时产生卖出信号",
+        "单次投入不超过初始资金的 50%，不叠加持仓",
+        "完整 K 线确认亏损达到 8% 后退出",
+        "最多持有 20 根 K 线后提出退出",
+        "信号形成后的下一可用开盘执行，卖出遵守 T+1"
+      ]
+    }
+  ],
+  "research": {
+    "methods": [
+      {
+        "id": "method-16j5g8x",
+        "title": "跟随均线方向",
+        "version": 1,
+        "parentId": null,
+        "origin": "inferred",
+        "status": "candidate",
+        "rules": {
+          "kind": "trend",
+          "lookback": 5,
+          "entryDeviationPct": 0.5,
+          "exitDeviationPct": 0,
+          "allocationPct": 80,
+          "stopLossPct": null,
+          "takeProfitPct": null,
+          "maxHoldBars": null
+        },
+        "derivation": {
+          "symbol": "600519.SH",
+          "from": "2025-03-03T09:40",
+          "to": "2025-03-28T14:40",
+          "tradeIds": [
+            "EQ01-T01",
+            "EQ01-T02",
+            "EQ01-T03",
+            "EQ01-T04",
+            "EQ01-T05",
+            "EQ01-T06",
+            "EQ01-T07",
+            "EQ01-T08",
+            "EQ01-T09",
+            "EQ01-T10",
+            "EQ01-T11",
+            "EQ01-T12",
+            "EQ01-T13",
+            "EQ01-T14",
+            "EQ01-T15",
+            "EQ01-T16",
+            "EQ01-T17",
+            "EQ01-T18",
+            "EQ01-T19",
+            "EQ01-T20"
+          ]
+        },
+        "description": "已完成的 K 线收盘价高于 5 根均价 0.5% 时提出买入信号，低于均价时提出卖出信号。",
+        "rulesSummary": [
+          "以最近 5 根完整 K 线均价为基准，高于均价 0.5% 时产生买入信号",
+          "低于均价 0% 时产生卖出信号",
+          "单次投入不超过初始资金的 80%，不叠加持仓",
+          "信号形成后的下一可用开盘执行，卖出遵守 T+1"
+        ],
+        "analysis": {
+          "supportedTradeIds": [
+            "EQ01-T05",
+            "EQ01-T06",
+            "EQ01-T09",
+            "EQ01-T10",
+            "EQ01-T13",
+            "EQ01-T14",
+            "EQ01-T17",
+            "EQ01-T18"
+          ],
+          "counterexampleTradeIds": [
+            "EQ01-T03",
+            "EQ01-T04",
+            "EQ01-T07",
+            "EQ01-T08",
+            "EQ01-T11",
+            "EQ01-T12",
+            "EQ01-T15",
+            "EQ01-T16",
+            "EQ01-T19",
+            "EQ01-T20"
+          ],
+          "unassessableTradeIds": [
+            "EQ01-T01",
+            "EQ01-T02"
+          ],
+          "agreementPct": 44.44,
+          "nonTradeSignalCount": 24,
+          "nonTradeSignals": [
+            {
+              "time": "2025-03-05T05:00:00.000Z",
+              "side": "buy",
+              "deviationPct": 0.773674
+            },
+            {
+              "time": "2025-03-06T05:00:00.000Z",
+              "side": "buy",
+              "deviationPct": 1.000342
+            },
+            {
+              "time": "2025-03-07T05:00:00.000Z",
+              "side": "buy",
+              "deviationPct": 1.724274
+            },
+            {
+              "time": "2025-03-10T05:00:00.000Z",
+              "side": "buy",
+              "deviationPct": 1.042618
+            },
+            {
+              "time": "2025-03-11T01:30:00.000Z",
+              "side": "buy",
+              "deviationPct": 0.75462
+            },
+            {
+              "time": "2025-03-12T01:30:00.000Z",
+              "side": "buy",
+              "deviationPct": 0.634024
+            },
+            {
+              "time": "2025-03-12T05:00:00.000Z",
+              "side": "buy",
+              "deviationPct": 0.925914
+            },
+            {
+              "time": "2025-03-13T05:00:00.000Z",
+              "side": "buy",
+              "deviationPct": 1.73514
+            },
+            {
+              "time": "2025-03-14T05:00:00.000Z",
+              "side": "buy",
+              "deviationPct": 1.37507
+            },
+            {
+              "time": "2025-03-17T01:30:00.000Z",
+              "side": "buy",
+              "deviationPct": 0.762692
+            },
+            {
+              "time": "2025-03-17T05:00:00.000Z",
+              "side": "buy",
+              "deviationPct": 0.69436
+            },
+            {
+              "time": "2025-03-18T01:30:00.000Z",
+              "side": "buy",
+              "deviationPct": 0.739902
+            },
+            {
+              "time": "2025-03-18T05:00:00.000Z",
+              "side": "buy",
+              "deviationPct": 0.925973
+            },
+            {
+              "time": "2025-03-19T05:00:00.000Z",
+              "side": "buy",
+              "deviationPct": 1.461655
+            },
+            {
+              "time": "2025-03-20T05:00:00.000Z",
+              "side": "buy",
+              "deviationPct": 0.977482
+            },
+            {
+              "time": "2025-03-21T01:30:00.000Z",
+              "side": "buy",
+              "deviationPct": 0.55042
+            },
+            {
+              "time": "2025-03-21T05:00:00.000Z",
+              "side": "buy",
+              "deviationPct": 0.605013
+            },
+            {
+              "time": "2025-03-24T01:30:00.000Z",
+              "side": "buy",
+              "deviationPct": 0.668581
+            },
+            {
+              "time": "2025-03-24T05:00:00.000Z",
+              "side": "buy",
+              "deviationPct": 1.372918
+            },
+            {
+              "time": "2025-03-25T05:00:00.000Z",
+              "side": "buy",
+              "deviationPct": 1.782235
+            },
+            {
+              "time": "2025-03-26T05:00:00.000Z",
+              "side": "buy",
+              "deviationPct": 0.988746
+            },
+            {
+              "time": "2025-03-27T01:30:00.000Z",
+              "side": "buy",
+              "deviationPct": 0.823462
+            },
+            {
+              "time": "2025-03-28T01:30:00.000Z",
+              "side": "buy",
+              "deviationPct": 0.739928
+            },
+            {
+              "time": "2025-03-28T05:00:00.000Z",
+              "side": "buy",
+              "deviationPct": 1.025794
+            }
+          ],
+          "scope": "仅衡量已有行情特征与成交方向的相符程度；仓位、主观动机及完整候选标的集合未知。",
+          "limitations": [
+            "同一成交可能符合多种规则，不能据此还原真实意图。",
+            "未成交信号只表示当前账户记录未出现对应成交，不证明用户当时观察过该机会。",
+            "参数采用固定候选值，未按历史收益择优。"
+          ]
+        }
+      },
+      {
+        "id": "method-16j5g8x-v2-55l18q",
+        "title": "跟随均线方向（风险约束版）",
+        "version": 2,
+        "parentId": "method-16j5g8x",
+        "origin": "improved",
+        "status": "candidate",
+        "rules": {
+          "kind": "trend",
+          "lookback": 5,
+          "entryDeviationPct": 0.5,
+          "exitDeviationPct": 0,
+          "allocationPct": 50,
+          "stopLossPct": 8,
+          "takeProfitPct": null,
+          "maxHoldBars": 20
+        },
+        "derivation": {
+          "symbol": "600519.SH",
+          "from": "2025-03-03T09:40",
+          "to": "2025-03-28T14:40",
+          "tradeIds": [
+            "EQ01-T01",
+            "EQ01-T02",
+            "EQ01-T03",
+            "EQ01-T04",
+            "EQ01-T05",
+            "EQ01-T06",
+            "EQ01-T07",
+            "EQ01-T08",
+            "EQ01-T09",
+            "EQ01-T10",
+            "EQ01-T11",
+            "EQ01-T12",
+            "EQ01-T13",
+            "EQ01-T14",
+            "EQ01-T15",
+            "EQ01-T16",
+            "EQ01-T17",
+            "EQ01-T18",
+            "EQ01-T19",
+            "EQ01-T20"
+          ]
+        },
+        "description": "限制单次投入不超过 50%；补充 8% 收盘确认止损；补充 20 根 K 线持有期限",
+        "rulesSummary": [
+          "以最近 5 根完整 K 线均价为基准，高于均价 0.5% 时产生买入信号",
+          "低于均价 0% 时产生卖出信号",
+          "单次投入不超过初始资金的 50%，不叠加持仓",
+          "完整 K 线确认亏损达到 8% 后退出",
+          "最多持有 20 根 K 线后提出退出",
+          "信号形成后的下一可用开盘执行，卖出遵守 T+1"
+        ]
+      }
+    ],
+    "assumptions": {
+      "initialCapital": 850000,
+      "feeBps": 3,
+      "slippageBps": 5,
+      "lotSize": 100
+    },
+    "comparison": {
+      "mode": "method-pair",
+      "status": "ok",
+      "reason": null,
+      "baseline": {
+        "status": "ok",
+        "methodId": "method-16j5g8x",
+        "methodVersion": 1,
+        "symbol": "600519.SH",
+        "metrics": {
+          "netPnl": 132323.5,
+          "returnPct": 15.5675,
+          "finalEquity": 982323.5,
+          "maxDrawdownPct": 0.0481,
+          "sharpe": 22.6817,
+          "fees": 183.25,
+          "slippageCost": 305.26,
+          "tradeCount": 1,
+          "closedTradeCount": 0,
+          "winRatePct": null
+        },
+        "assumptions": {
+          "initialCapital": 850000,
+          "from": "2025-03-02T16:00:00.000Z",
+          "to": "2025-03-28T15:59:59.999Z",
+          "feeBps": 3,
+          "slippageBps": 5,
+          "lotSize": 100,
+          "initialPosition": 0,
+          "cashFlows": "none",
+          "execution": "next-available-bar-open",
+          "sellRule": "T+1",
+          "feeModel": "模拟成交金额按配置费率双向计费，未另加最低佣金和印花税；实际记录使用已记录费用。",
+          "valuation": "期末保留持仓并按最后收盘价估值，收益包含未实现盈亏；不强制平仓。",
+          "priceBasis": "不复权价格，不含分红和拆股调整。"
+        },
+        "evaluation": {
+          "kind": "in-sample",
+          "label": "含方法推导区间",
+          "independent": false
+        },
+        "warnings": [
+          "使用合成测试行情，结果仅用于验证流程。",
+          "成交按下一可用开盘价和配置滑点估算；未模拟停牌、涨跌停无法成交、市场冲击和成交量限制。",
+          "回撤采用持有期间各根完整 K 线收盘估值，盘中回撤可能更大。",
+          "夏普率采用已提供交易日的日收益、252 日年化和零无风险收益，少于 20 个交易日或零波动时不显示。",
+          "规则在完整 K 线可用后产生信号；止损也遵循这一口径，无法保证按阈值成交。"
+        ]
+      },
+      "alternative": {
+        "status": "ok",
+        "methodId": "method-16j5g8x-v2-55l18q",
+        "methodVersion": 2,
+        "symbol": "600519.SH",
+        "metrics": {
+          "netPnl": 63167.35,
+          "returnPct": 7.4315,
+          "finalEquity": 913167.35,
+          "maxDrawdownPct": 0.0257,
+          "sharpe": 21.3201,
+          "fees": 298.02,
+          "slippageCost": 496.63,
+          "tradeCount": 3,
+          "closedTradeCount": 1,
+          "winRatePct": 100
+        },
+        "assumptions": {
+          "initialCapital": 850000,
+          "from": "2025-03-02T16:00:00.000Z",
+          "to": "2025-03-28T15:59:59.999Z",
+          "feeBps": 3,
+          "slippageBps": 5,
+          "lotSize": 100,
+          "initialPosition": 0,
+          "cashFlows": "none",
+          "execution": "next-available-bar-open",
+          "sellRule": "T+1",
+          "feeModel": "模拟成交金额按配置费率双向计费，未另加最低佣金和印花税；实际记录使用已记录费用。",
+          "valuation": "期末保留持仓并按最后收盘价估值，收益包含未实现盈亏；不强制平仓。",
+          "priceBasis": "不复权价格，不含分红和拆股调整。"
+        },
+        "evaluation": {
+          "kind": "in-sample",
+          "label": "含方法推导区间",
+          "independent": false
+        },
+        "warnings": [
+          "使用合成测试行情，结果仅用于验证流程。",
+          "成交按下一可用开盘价和配置滑点估算；未模拟停牌、涨跌停无法成交、市场冲击和成交量限制。",
+          "回撤采用持有期间各根完整 K 线收盘估值，盘中回撤可能更大。",
+          "夏普率采用已提供交易日的日收益、252 日年化和零无风险收益，少于 20 个交易日或零波动时不显示。",
+          "规则在完整 K 线可用后产生信号；止损也遵循这一口径，无法保证按阈值成交。"
+        ]
+      },
+      "originalMethodId": "method-16j5g8x",
+      "improvedMethodId": "method-16j5g8x-v2-55l18q",
+      "actualReference": {
+        "status": "ok",
+        "metrics": {
+          "netPnl": 82179.41,
+          "returnPct": 9.6682,
+          "finalEquity": 932179.41,
+          "maxDrawdownPct": 0.0631,
+          "sharpe": 33.9097,
+          "fees": 3115.59,
+          "slippageCost": null,
+          "tradeCount": 20,
+          "closedTradeCount": 10,
+          "winRatePct": 100
+        },
+        "assumptions": {
+          "initialCapital": 850000,
+          "from": "2025-03-02T16:00:00.000Z",
+          "to": "2025-03-28T15:59:59.999Z",
+          "feeBps": 3,
+          "slippageBps": 5,
+          "lotSize": 100,
+          "initialPosition": 0,
+          "cashFlows": "none",
+          "execution": "recorded-fills",
+          "sellRule": "T+1",
+          "feeModel": "使用原始记录已发生费用；成交价格已包含实际执行影响，无法单独分离滑点。",
+          "valuation": "期末保留持仓并按最后收盘价估值，收益包含未实现盈亏；不强制平仓。",
+          "priceBasis": "不复权价格，不含分红和拆股调整。"
+        }
+      },
+      "assumptions": {
+        "initialCapital": 850000,
+        "from": "2025-03-02T16:00:00.000Z",
+        "to": "2025-03-28T15:59:59.999Z",
+        "feeBps": 3,
+        "slippageBps": 5,
+        "lotSize": 100,
+        "initialPosition": 0,
+        "cashFlows": "none",
+        "execution": "next-available-bar-open",
+        "sellRule": "T+1",
+        "feeModel": "模拟成交金额按配置费率双向计费，未另加最低佣金和印花税；实际记录使用已记录费用。",
+        "valuation": "期末保留持仓并按最后收盘价估值，收益包含未实现盈亏；不强制平仓。",
+        "priceBasis": "不复权价格，不含分红和拆股调整。"
+      },
+      "interval": "4H",
+      "reviewInterval": "15m",
+      "delta": {
+        "netPnl": -69156.15,
+        "returnPct": -8.136,
+        "maxDrawdownPct": -0.0224,
+        "sharpe": -1.3616,
+        "fees": 114.77,
+        "tradeCount": 2
+      },
+      "warnings": [
+        "使用合成测试行情，结果仅用于验证流程。",
+        "成交按下一可用开盘价和配置滑点估算；未模拟停牌、涨跌停无法成交、市场冲击和成交量限制。",
+        "回撤采用持有期间各根完整 K 线收盘估值，盘中回撤可能更大。",
+        "夏普率采用已提供交易日的日收益、252 日年化和零无风险收益，少于 20 个交易日或零波动时不显示。",
+        "规则在完整 K 线可用后产生信号；止损也遵循这一口径，无法保证按阈值成交。",
+        "两版回放仅在资金、成本、行情、区间与执行规则一致时展示差额；差额仅描述这段历史，不能保证未来改善。"
+      ]
+    },
+    "batch": null,
+    "limitations": [
+      "候选方法来自可观察的成交与行情，原有理由和计划保持不变。",
+      "方法相符度与盈利能力分别评估。",
+      "当前支持单一人民币股票的现货多头规则；新闻驱动或主观判断需继续补充。"
+    ],
+    "updatedAt": "2026-10-21T20:42:52.592Z"
+  },
+  "checklist": [
+    {
+      "title": "分批交易前核对预算",
+      "trigger": "每次按分批计划建立仓位或追加买入前。",
+      "action": "核对已投入金额、本批拟投入金额、预留费用与总预算；记录核对结果，确认累计投入未超预算后再继续。",
+      "exception": "预算或分批安排不明确时，标记为待补充；需要调整计划时先记录原因，再重新核对。",
+      "analysisRunId": "02abff02-1c25-43d8-ba48-64ea8a986b7f",
+      "evidenceIds": [
+        "background:EQ01-T01"
+      ],
+      "id": "2026f9e6-0281-4056-8bd0-9992715576e7",
+      "conversationId": "f96a6399-5904-494c-b691-7ab8f6146497",
+      "messageId": "55db9cdd-db73-4f98-8537-4e7414058e50-answer",
+      "question": "把「分批交易前核对预算」整理成一条可编辑的检查项，包含触发条件、检查动作和例外，供我下一次交易前使用。",
+      "savedAt": "2026-10-21T20:44:12.824Z"
+    }
+  ]
+}

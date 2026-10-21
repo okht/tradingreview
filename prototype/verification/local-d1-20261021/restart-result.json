@@ -1,0 +1,35 @@
+{
+  "phase": "restart",
+  "passed": true,
+  "observedAt": "2026-10-21T09:27:29.541Z",
+  "observations": [
+    {
+      "check": "anonymous API requires authentication",
+      "status": 401
+    },
+    {
+      "check": "explicit local gateway test header reaches Worker",
+      "status": 200
+    },
+    {
+      "check": "cross-origin requests rejected",
+      "status": 403
+    },
+    {
+      "check": "Alice persists across Worker restart",
+      "status": 200
+    },
+    {
+      "check": "Bob persists separately across restart",
+      "status": 200
+    },
+    {
+      "check": "owner can read local SQL fixture run",
+      "status": 200
+    },
+    {
+      "check": "other owner cannot read the run",
+      "status": 404
+    }
+  ]
+}

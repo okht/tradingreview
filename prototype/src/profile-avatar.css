@@ -1,0 +1,15 @@
+.pav-trigger { display: inline-flex; flex: 0 0 36px; align-items: center; justify-content: center; width: 36px; height: 36px; margin: 0; padding: 0; overflow: hidden; border: 1px solid var(--border); border-radius: 50%; background: var(--surface); cursor: pointer; }
+.pav-trigger > img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.pav-trigger:hover { border-color: var(--ink-secondary); }
+.pav-trigger:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+.pav-popover { z-index: 70; width: max-content; max-width: calc(100vw - 24px); padding: 16px; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); color: var(--ink); box-shadow: 0 6px 24px color-mix(in srgb, var(--ink) 10%, transparent); }
+.pav-title { margin: 0 0 14px; font-size: 13px; line-height: 1.4; font-weight: 600; }
+.pav-options { display: flex; flex-wrap: wrap; gap: 10px; }
+.pav-option { position: relative; display: grid; flex: 0 0 48px; place-items: center; width: 48px; height: 48px; padding: 0; margin: 0; border: 2px solid transparent; border-radius: 50%; background: var(--surface); cursor: pointer; }
+.pav-option > img { display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
+.pav-option:hover { border-color: var(--border-strong); }
+.pav-option[aria-pressed="true"] { border-color: var(--ink); }
+.pav-option:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+.pav-selected { position: absolute; right: -2px; bottom: -2px; display: grid; place-items: center; width: 17px; height: 17px; border: 2px solid var(--surface); border-radius: 50%; background: var(--ink); color: var(--surface); }
+.pav-error { display: flex; align-items: flex-start; gap: 6px; max-width: 280px; margin: 14px 0 0; font-size: 12px; line-height: 1.6; color: var(--red-text); }
+.pav-error > svg { flex-shrink: 0; margin-top: 2px; }

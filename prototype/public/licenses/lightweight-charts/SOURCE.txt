@@ -1,0 +1,11 @@
+lightweight-charts 5.2.1
+License: Apache-2.0
+LICENSE.txt copied verbatim from the installed lightweight-charts@5.2.1 npm package.
+NOTICE.txt downloaded verbatim from the official v5.2.1 tag:
+https://github.com/tradingview/lightweight-charts/blob/v5.2.1/NOTICE
+Tag commit: b2ce010e4ad59f6556c9ed60e2b2b30feccdd2d1
+Tag date: 2026-08-12
+Verified: 2026-10-21
+Official README attribution instructions:
+https://github.com/tradingview/lightweight-charts/blob/v5.2.1/README.md#license
+The chart retains attributionLogo and a visible TradingView link.

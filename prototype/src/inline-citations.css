@@ -1,0 +1,9 @@
+.inline-citation-group { white-space: normal; }
+.inline-citation-toggle { display: inline-flex; align-items: center; gap: 6px; min-height: 24px; margin-inline: 3px; padding: 1px 7px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface-hover); color: var(--ink-secondary); font: inherit; font-size: 11px; line-height: 20px; vertical-align: baseline; white-space: nowrap; cursor: pointer; }
+.inline-citation-toggle:hover { background: var(--surface-selected); color: var(--ink); }
+.inline-citation-chevron { width: 5px; height: 5px; border-right: 1px solid currentColor; border-bottom: 1px solid currentColor; transform: translateY(-1px) rotate(45deg); }
+.inline-citation-toggle[aria-expanded="true"] .inline-citation-chevron { transform: translateY(1px) rotate(225deg); }
+.inline-citation-items { white-space: pre-wrap; }
+.inline-citation-number { display: inline; padding: 1px 2px; border: 0; border-radius: 3px; background: transparent; color: var(--ink-secondary); font: inherit; font-size: 12px; cursor: pointer; }
+.inline-citation-number:hover { background: var(--surface-hover); color: var(--ink); text-decoration: underline; }
+.inline-citation-toggle:focus-visible, .inline-citation-number:focus-visible { outline: 2px solid var(--ink-secondary); outline-offset: 2px; }
