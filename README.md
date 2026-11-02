@@ -1,115 +1,127 @@
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/images/brand/tradingreview-logo-dark.png">
-    <img src="docs/images/brand/tradingreview-logo.png" width="380" alt="TradingReview 标志">
+    <img src="docs/images/brand/tradingreview-logo.png" width="380" alt="TradingReview logo">
   </picture>
-  <h3>从每笔交易，走向下一次改进。</h3>
-  <p>还原决策背景，核对相关证据，把复盘沉淀为可检验的方法和可执行的检查项。</p>
+  <h3>Learn from every trade. Improve your next decision.</h3>
+  <p>Reconstruct the context, examine the evidence, and turn each review into testable trading methods and practical checklists.</p>
   <p>
-    <a href="https://tradingreview.cht.me/quick"><b>快速体验</b></a> ·
-    <a href="https://tradingreview.cht.me/">完整版</a> ·
-    <a href="https://okht.github.io/tradingreview/">产品介绍</a> ·
-    <a href="https://okht.github.io/tradingreview/presentation.html">幻灯片演示</a> ·
-    <a href="https://okht.github.io/tradingreview/presentation.pptx">下载演示文稿</a>
+    <a href="https://tradingreview.cht.me/quick"><b>Quick Demo</b></a> ·
+    <a href="https://tradingreview.cht.me/">Full App</a> ·
+    <a href="https://okht.github.io/tradingreview/">Product Tour</a> ·
+    <a href="https://okht.github.io/tradingreview/presentation.html">Slide Deck</a> ·
+    <a href="https://okht.github.io/tradingreview/presentation.pptx">Download PowerPoint</a>
   </p>
 </div>
 
-## 简介
+## Overview
 
-TradingReview 是一个投资决策复盘与学习产品。围绕一次或一组历史交易，串联「导入交易 → 背景与证据 → AI 复盘 → 改进交易方法与回测 → 沉淀检查项」，帮助用户看清这次发生了什么，也留下下次可以怎样做。
+TradingReview is an AI-assisted workspace for reviewing investment decisions and learning from past trades. It brings transaction records, decision context, supporting evidence, and follow-up actions into one workflow:
 
-快速体验版已准备好经典案例，可以直接查看复盘、检查证据、编辑方法与检查项，并重新运行回测。完整版支持连接自己的模型，从导入材料开始完成整个流程。
+**Import trades → Reconstruct context → Review with AI → Refine and backtest methods → Save checklists**
 
-## 产品预览
+Start with a single trade or a group of trades, investigate what happened, and turn the findings into rules you can test and checks you can use next time. The quick demo includes a prepared case to explore immediately. The full app lets you connect your own model and work through the process with your own records.
 
-以下为[在线演示](https://okht.github.io/tradingreview/presentation.html)中的 6 张关键幻灯片，使用实际产品页面截图。点击图片可进入对应页面；图像保留原始 4K 分辨率、截图比例、圆角和阴影。
+## Product Preview
+
+These six slides from the [product presentation](https://okht.github.io/tradingreview/presentation.html) show the core workflow using screenshots of the application. Click an image to open the corresponding slide. The product interface and presentation shown in the screenshots are in Chinese.
 
 <table>
   <tr>
     <td align="center" width="50%" valign="top">
-      <a href="https://okht.github.io/tradingreview/presentation.html#4"><img src="docs/images/slides/trade-import.png" alt="导入交易：保留来源、逐笔核对、确认后进入复盘" width="480"></a>
-      <br><b>导入交易</b>
-      <br><sub>统一成交字段，保留逐笔核对与修改的机会。</sub>
+      <a href="https://okht.github.io/tradingreview/presentation.html#4"><img src="docs/images/slides/trade-import.png" alt="Trade import with source records, individual trade checks, and confirmation before review" width="480"></a>
+      <br><b>Import and Verify Trades</b>
+      <br><sub>Normalize transaction fields and check or edit each record before confirming.</sub>
     </td>
     <td align="center" width="50%" valign="top">
-      <a href="https://okht.github.io/tradingreview/presentation.html#7"><img src="docs/images/slides/decision-suggestions.png" alt="决策背景：输入框内的灰字建议，按 Tab 直接填入" width="480"></a>
-      <br><b>决策背景建议</b>
-      <br><sub>根据已有行为预测理由与计划，按 Tab 填入后继续改写。</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%" valign="top">
-      <a href="https://okht.github.io/tradingreview/presentation.html#9"><img src="docs/images/slides/ai-review.png" alt="AI 复盘：交易事实、解释与建议，以及可展开的来源" width="480"></a>
-      <br><b>AI 复盘与证据</b>
-      <br><sub>算清交易事实，区分解释与建议，保留来源供核对。</sub>
-    </td>
-    <td align="center" width="50%" valign="top">
-      <a href="https://okht.github.io/tradingreview/presentation.html#10"><img src="docs/images/slides/method-improvement.png" alt="方法改进：保留原方法，对照改进后的规则" width="480"></a>
-      <br><b>改进交易方法</b>
-      <br><sub>保留原方法，明确每一条改进，再保存为新版本。</sub>
+      <a href="https://okht.github.io/tradingreview/presentation.html#7"><img src="docs/images/slides/decision-suggestions.png" alt="Inline suggestions for decision context that can be accepted with Tab and edited" width="480"></a>
+      <br><b>Reconstruct Decision Context</b>
+      <br><sub>Review suggested reasons and plans, accept them with Tab, and refine them in your own words.</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%" valign="top">
-      <a href="https://okht.github.io/tradingreview/presentation.html#12"><img src="docs/images/slides/backtest-comparison.png" alt="回测对照：在相同条件下比较原方法和改进方法" width="480"></a>
-      <br><b>同条件回测对照</b>
-      <br><sub>用相同数据与成本设置，观察收益、回撤和执行差异。</sub>
+      <a href="https://okht.github.io/tradingreview/presentation.html#9"><img src="docs/images/slides/ai-review.png" alt="AI review with trade facts, interpretations, suggestions, and expandable evidence sources" width="480"></a>
+      <br><b>Review with Evidence</b>
+      <br><sub>Inspect calculated trade facts, AI interpretations, and suggestions alongside their sources.</sub>
     </td>
     <td align="center" width="50%" valign="top">
-      <a href="https://okht.github.io/tradingreview/presentation.html#13"><img src="docs/images/slides/pre-trade-checklist.png" alt="交易前检查项：触发条件、检查动作与例外" width="480"></a>
-      <br><b>沉淀交易前检查项</b>
-      <br><sub>把经验写成触发条件、检查动作与例外，供下一次使用。</sub>
+      <a href="https://okht.github.io/tradingreview/presentation.html#10"><img src="docs/images/slides/method-improvement.png" alt="Original and revised trading rules saved as separate method versions" width="480"></a>
+      <br><b>Refine Trading Methods</b>
+      <br><sub>Keep the original method, make each proposed change explicit, and save a new version.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <a href="https://okht.github.io/tradingreview/presentation.html#12"><img src="docs/images/slides/backtest-comparison.png" alt="Backtest comparison of original and revised methods using the same data and assumptions" width="480"></a>
+      <br><b>Compare Backtests</b>
+      <br><sub>Compare returns, drawdowns, and execution using the same data, capital, and cost settings.</sub>
+    </td>
+    <td align="center" width="50%" valign="top">
+      <a href="https://okht.github.io/tradingreview/presentation.html#13"><img src="docs/images/slides/pre-trade-checklist.png" alt="Reusable pre-trade checklist with trigger conditions, actions, and exceptions" width="480"></a>
+      <br><b>Build Pre-Trade Checklists</b>
+      <br><sub>Capture lessons as trigger conditions, concrete actions, and exceptions for future decisions.</sub>
     </td>
   </tr>
 </table>
 
-演示案例采用真实股票身份，交易、行情与用户行为为模拟数据；具体实现范围与验证记录见下文。
+Demo cases use real stock identifiers with simulated trades, market prices, and user behavior. See [Data and Validation](#data-and-validation) for the scope of the sample data and recorded checks.
 
-## 直接体验
+## Try It
 
-| 入口 | 地址 | 适合怎样体验 |
-|---|---|---|
-| 快速体验版 | https://tradingreview.cht.me/quick | 打开已有经典案例，查看 AI 复盘、核对引用、编辑检查项并重新回测 |
-| 完整版 | https://tradingreview.cht.me/ | 连接自己的模型，导入交易，从头完成复盘流程 |
-| 源代码仓库 | https://github.com/okht/tradingreview | 查看产品源码、README、测试与演示材料 |
-| 在线产品介绍 | https://okht.github.io/tradingreview/ | 浏览演示内容；实际操作使用上面的两个产品入口 |
-
-建议先用快速版体验 3–5 分钟：阅读复盘 → 展开「查看交易与材料」 → 核对 15 分钟 K 线、决策背景与引用 → 在「交易方法」重新运行回测 → 在「检查项」编辑并保存，再刷新确认。快速版的已有复盘可以直接阅读；继续产生新的 AI 回答时，需要连接自己的模型。
-
-公开云端通过模型 API 连接，密钥由体验者自行填写；本地版本另外支持 ChatGPT 订阅 OAuth。提交包不包含个人模型授权或金融接口密钥。完整版与快速版的工作区独立保存，不同访客的工作区相互隔离。
-
-## 文件索引
-
-本仓库对应笔试平台的**第 2 题「投资决策复盘与学习」**。题目附件的文件编号为 `11`。
-
-| 文件或目录 | 用途 |
+| Entry | What you can do |
 |---|---|
-| [提交文档/01_题目要求核对.md](提交文档/01_题目要求核对.md) | 逐项对应题目要求，说明当前实现与边界 |
-| [提交文档/02_AI使用与验证记录.md](提交文档/02_AI使用与验证记录.md) | AI 的参与范围、候选人提出的修正、工具发现的缺陷与复测证据 |
-| [提交文档/03_测试说明.md](提交文档/03_测试说明.md) | 主链路、数据缺失/接口失败、极端与合规场景，保留失败记录 |
-| [prototype/README.md](prototype/README.md) | 本地启动、环境变量、产品选择、数据和 AI 角色、已知边界 |
-| [prototype/](prototype/) | 可运行源码、锁定依赖、第三方许可、自动测试与模拟数据 |
-| [演示/投资决策复盘与学习.pptx](演示/投资决策复盘与学习.pptx) | 高清 PowerPoint；18 页，保留截图比例、圆角和阴影 |
-| [演示/投资决策复盘与学习.html](演示/投资决策复盘与学习.html) | 双击即可打开的单文件演示网页；图片已内嵌 |
-| [演示/Slidev源码/](演示/Slidev源码/) | 可继续编辑的演示源文件与原始高清截图 |
-| [docs/images/](docs/images/) | 仓库首页使用的标志与 6 张原始高清幻灯片 |
-| [文件清单.tsv](文件清单.tsv) | 归档文件、字节数与 SHA-256 校验值 |
+| [Quick Demo](https://tradingreview.cht.me/quick) | Explore a prepared case, read the saved AI review, inspect citations, edit checklists, and rerun backtests. |
+| [Full App](https://tradingreview.cht.me/) | Connect your own model, import trades, and complete the review workflow from the beginning. |
+| [Product Tour](https://okht.github.io/tradingreview/) | Browse a visual walkthrough of the product. |
 
-PPT 和 HTML 用于辅助说明产品，不替代上述可实际操作的 Web 入口。PPT 页面采用高清图像导出；版式继续编辑请使用 Slidev 源码。可选的 60–180 秒演示视频本次未提供。
+For a three-to-five-minute introduction, open the quick demo and:
 
-## 数据与验证口径
+1. Read the saved review and follow its citations.
+2. Expand the trade and material panel to inspect the 15-minute candlesticks, decision context, and evidence.
+3. Open the trading methods section and rerun a backtest.
+4. Edit and save a checklist, then refresh to check that your changes persist.
 
-快速版使用贵州茅台 `600519.SH` 的 20 笔模拟成交、15 分钟合成行情，以及实际验收调用生成的历史 AI 回复。股票身份真实；成交、价格、行情、行为和背景均为构造数据，收益数字只用于核对产品流程。
+The prepared review can be read immediately. Generating new AI responses requires your own model connection. The hosted app connects through model APIs; the local version also supports ChatGPT subscription OAuth. The full app and quick demo save separate workspaces, and each visitor receives an isolated workspace.
 
-源码内包含 50 组模拟数据：10 个真实 A 股标的 × 5 类情境，每组 20–40 笔，共 1,500 笔成交、16,000 根 15 分钟 K 线。已完成 50 组离线数据与计算契约验证；尚未完成 50 组真实模型质量评测。经典案例已完成真实 AI 复盘、方法改进、回测与检查项链路；整组自动背景准备仍有后续批次失败的已知限制，详细记录见测试说明。
+## Run Locally
 
-文档中的早期审计和分阶段记录保留各自日期及当时结论。当前交付状态优先参考本目录、最新产品 README 和测试说明的「公开部署追加验证」章节。
+Requires **Node.js 22.19 or later** and npm.
 
-## 在线产品介绍
+```sh
+git clone https://github.com/okht/tradingreview.git
+cd tradingreview/prototype
+npm ci
+npm run dev
+```
 
-- [连续滚动介绍网页](https://okht.github.io/tradingreview/)
-- [18 页演示版](https://okht.github.io/tradingreview/presentation.html)
-- [下载高清 PowerPoint](https://okht.github.io/tradingreview/presentation.pptx)
-- [打开快速体验产品](https://tradingreview.cht.me/quick)
+The development command starts the frontend and local API together. The default frontend address is `http://127.0.0.1:5173`; check the terminal output if that port is in use. Connect your model in the app settings to generate new AI responses.
 
-介绍网页和 PowerPoint 保留原始高清截图、比例、圆角与阴影。
+See the [application documentation](prototype/README.md) for environment variables, model connections, data sources, build commands, and implementation details.
+
+## Repository Guide
+
+| Path | Contents |
+|---|---|
+| [prototype/](prototype/) | Application source, locked dependencies, automated tests, and simulated datasets. |
+| [prototype/README.md](prototype/README.md) | Setup instructions, configuration, supported workflows, and known limitations. |
+| [prototype/evaluation/](prototype/evaluation/) | Evaluation fixtures, reference calculations, and reproducible validation instructions. |
+| [prototype/verification/](prototype/verification/) | Dated validation records and supporting evidence. |
+| [Presentation source](%E6%BC%94%E7%A4%BA/Slidev%E6%BA%90%E7%A0%81/) | Editable Slidev slides and original screenshots. |
+| [docs/images/](docs/images/) | Brand assets and the six full-resolution preview slides used above. |
+
+## Data and Validation
+
+The quick demo contains **20 simulated trades** for Kweichow Moutai (`600519.SH`), synthetic 15-minute market data, and saved AI responses from a recorded validation run. The stock identity is real; transactions, prices, market observations, behavior, and decision context are constructed examples. Return figures illustrate the application workflow.
+
+The repository includes **50 simulated datasets** covering 10 real A-share stocks across five scenarios. Each dataset contains 20–40 trades, for a total of **1,500 trades and 16,000 fifteen-minute candlesticks**. Recorded offline checks cover the data and calculation contracts for all 50 datasets. A complete evaluation of live model quality across those datasets remains outstanding.
+
+The prepared case has recorded validation of the AI review, method refinement, backtest, and checklist workflow. Automatic background preparation has a known limitation: later batches can reach the execution limit. Dated validation records describe what was checked at each stage; they should be read alongside the current application documentation.
+
+## Presentations
+
+- [Scrolling product tour](https://okht.github.io/tradingreview/)
+- [18-slide presentation](https://okht.github.io/tradingreview/presentation.html)
+- [Download the PowerPoint deck](https://okht.github.io/tradingreview/presentation.pptx)
+
+The presentation assets preserve the original screenshot resolution, proportions, rounded corners, and shadows. PowerPoint slides use exported images; use the Slidev source to edit the layouts.
